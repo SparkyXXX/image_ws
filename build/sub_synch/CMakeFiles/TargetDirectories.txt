@@ -1,0 +1,10 @@
+/home/lamps-xe11/ros2_ws/build/sub_synch/CMakeFiles/uninstall.dir
+/home/lamps-xe11/ros2_ws/build/sub_synch/CMakeFiles/sub_synch_uninstall.dir
+/home/lamps-xe11/ros2_ws/build/sub_synch/CMakeFiles/time_synch.dir
+/home/lamps-xe11/ros2_ws/build/sub_synch/CMakeFiles/test.dir
+/home/lamps-xe11/ros2_ws/build/sub_synch/CMakeFiles/edit_cache.dir
+/home/lamps-xe11/ros2_ws/build/sub_synch/CMakeFiles/rebuild_cache.dir
+/home/lamps-xe11/ros2_ws/build/sub_synch/CMakeFiles/list_install_components.dir
+/home/lamps-xe11/ros2_ws/build/sub_synch/CMakeFiles/install.dir
+/home/lamps-xe11/ros2_ws/build/sub_synch/CMakeFiles/install/local.dir
+/home/lamps-xe11/ros2_ws/build/sub_synch/CMakeFiles/install/strip.dir

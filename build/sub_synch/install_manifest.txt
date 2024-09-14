@@ -1,0 +1,16 @@
+/home/lamps-xe11/ros2_ws/install/sub_synch/lib/sub_synch/time_synch
+/home/lamps-xe11/ros2_ws/install/sub_synch/share/ament_index/resource_index/package_run_dependencies/sub_synch
+/home/lamps-xe11/ros2_ws/install/sub_synch/share/ament_index/resource_index/parent_prefix_path/sub_synch
+/home/lamps-xe11/ros2_ws/install/sub_synch/share/sub_synch/environment/ament_prefix_path.sh
+/home/lamps-xe11/ros2_ws/install/sub_synch/share/sub_synch/environment/ament_prefix_path.dsv
+/home/lamps-xe11/ros2_ws/install/sub_synch/share/sub_synch/environment/path.sh
+/home/lamps-xe11/ros2_ws/install/sub_synch/share/sub_synch/environment/path.dsv
+/home/lamps-xe11/ros2_ws/install/sub_synch/share/sub_synch/local_setup.bash
+/home/lamps-xe11/ros2_ws/install/sub_synch/share/sub_synch/local_setup.sh
+/home/lamps-xe11/ros2_ws/install/sub_synch/share/sub_synch/local_setup.zsh
+/home/lamps-xe11/ros2_ws/install/sub_synch/share/sub_synch/local_setup.dsv
+/home/lamps-xe11/ros2_ws/install/sub_synch/share/sub_synch/package.dsv
+/home/lamps-xe11/ros2_ws/install/sub_synch/share/ament_index/resource_index/packages/sub_synch
+/home/lamps-xe11/ros2_ws/install/sub_synch/share/sub_synch/cmake/sub_synchConfig.cmake
+/home/lamps-xe11/ros2_ws/install/sub_synch/share/sub_synch/cmake/sub_synchConfig-version.cmake
+/home/lamps-xe11/ros2_ws/install/sub_synch/share/sub_synch/package.xml

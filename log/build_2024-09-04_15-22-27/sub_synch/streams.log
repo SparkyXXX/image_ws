@@ -1,0 +1,23 @@
+[0.098s] Invoking command in '/home/lamps-xe11/ros2_ws/build/sub_synch': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --build /home/lamps-xe11/ros2_ws/build/sub_synch -- -j4 -l4
+[0.831s] [100%] Built target time_synch
+[0.893s] Invoked command in '/home/lamps-xe11/ros2_ws/build/sub_synch' returned '0': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --build /home/lamps-xe11/ros2_ws/build/sub_synch -- -j4 -l4
+[1.099s] Invoking command in '/home/lamps-xe11/ros2_ws/build/sub_synch': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --install /home/lamps-xe11/ros2_ws/build/sub_synch
+[1.137s] -- Install configuration: ""
+[1.144s] -- Up-to-date: /home/lamps-xe11/ros2_ws/install/sub_synch/lib/sub_synch/time_synch
+[1.146s] -- Up-to-date: /home/lamps-xe11/ros2_ws/install/sub_synch/share/sub_synch/launch
+[1.149s] -- Up-to-date: /home/lamps-xe11/ros2_ws/install/sub_synch/share/ament_index/resource_index/package_run_dependencies/sub_synch
+[1.151s] -- Up-to-date: /home/lamps-xe11/ros2_ws/install/sub_synch/share/ament_index/resource_index/parent_prefix_path/sub_synch
+[1.152s] -- Up-to-date: /home/lamps-xe11/ros2_ws/install/sub_synch/share/sub_synch/environment/ament_prefix_path.sh
+[1.153s] -- Up-to-date: /home/lamps-xe11/ros2_ws/install/sub_synch/share/sub_synch/environment/ament_prefix_path.dsv
+[1.153s] -- Up-to-date: /home/lamps-xe11/ros2_ws/install/sub_synch/share/sub_synch/environment/path.sh
+[1.154s] -- Up-to-date: /home/lamps-xe11/ros2_ws/install/sub_synch/share/sub_synch/environment/path.dsv
+[1.155s] -- Up-to-date: /home/lamps-xe11/ros2_ws/install/sub_synch/share/sub_synch/local_setup.bash
+[1.155s] -- Up-to-date: /home/lamps-xe11/ros2_ws/install/sub_synch/share/sub_synch/local_setup.sh
+[1.156s] -- Up-to-date: /home/lamps-xe11/ros2_ws/install/sub_synch/share/sub_synch/local_setup.zsh
+[1.157s] -- Up-to-date: /home/lamps-xe11/ros2_ws/install/sub_synch/share/sub_synch/local_setup.dsv
+[1.158s] -- Installing: /home/lamps-xe11/ros2_ws/install/sub_synch/share/sub_synch/package.dsv
+[1.160s] -- Up-to-date: /home/lamps-xe11/ros2_ws/install/sub_synch/share/ament_index/resource_index/packages/sub_synch
+[1.161s] -- Up-to-date: /home/lamps-xe11/ros2_ws/install/sub_synch/share/sub_synch/cmake/sub_synchConfig.cmake
+[1.162s] -- Up-to-date: /home/lamps-xe11/ros2_ws/install/sub_synch/share/sub_synch/cmake/sub_synchConfig-version.cmake
+[1.163s] -- Up-to-date: /home/lamps-xe11/ros2_ws/install/sub_synch/share/sub_synch/package.xml
+[1.171s] Invoked command in '/home/lamps-xe11/ros2_ws/build/sub_synch' returned '0': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --install /home/lamps-xe11/ros2_ws/build/sub_synch

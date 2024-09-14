@@ -1,0 +1,2 @@
+Invoking command in '/home/lamps-xe11/ros2_ws/build/two_camera': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake /home/lamps-xe11/ros2_ws/src/two_camera -DCMAKE_INSTALL_PREFIX=/home/lamps-xe11/ros2_ws/install/two_camera
+Invoked command in '/home/lamps-xe11/ros2_ws/build/two_camera' returned '1': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake /home/lamps-xe11/ros2_ws/src/two_camera -DCMAKE_INSTALL_PREFIX=/home/lamps-xe11/ros2_ws/install/two_camera

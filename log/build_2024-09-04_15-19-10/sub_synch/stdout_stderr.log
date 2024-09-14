@@ -1,0 +1,21 @@
+[35m[1mConsolidate compiler generated dependencies of target time_synch[0m
+[100%] Built target time_synch
+-- Install configuration: ""
+-- Installing: /home/lamps-xe11/ros2_ws/install/sub_synch/lib/sub_synch/time_synch
+-- Set runtime path of "/home/lamps-xe11/ros2_ws/install/sub_synch/lib/sub_synch/time_synch" to ""
+-- Up-to-date: /home/lamps-xe11/ros2_ws/install/sub_synch/share/sub_synch/launch
+-- Installing: /home/lamps-xe11/ros2_ws/install/sub_synch/share/ament_index/resource_index/package_run_dependencies/sub_synch
+-- Installing: /home/lamps-xe11/ros2_ws/install/sub_synch/share/ament_index/resource_index/parent_prefix_path/sub_synch
+-- Up-to-date: /home/lamps-xe11/ros2_ws/install/sub_synch/share/sub_synch/environment/ament_prefix_path.sh
+-- Installing: /home/lamps-xe11/ros2_ws/install/sub_synch/share/sub_synch/environment/ament_prefix_path.dsv
+-- Up-to-date: /home/lamps-xe11/ros2_ws/install/sub_synch/share/sub_synch/environment/path.sh
+-- Installing: /home/lamps-xe11/ros2_ws/install/sub_synch/share/sub_synch/environment/path.dsv
+-- Installing: /home/lamps-xe11/ros2_ws/install/sub_synch/share/sub_synch/local_setup.bash
+-- Installing: /home/lamps-xe11/ros2_ws/install/sub_synch/share/sub_synch/local_setup.sh
+-- Installing: /home/lamps-xe11/ros2_ws/install/sub_synch/share/sub_synch/local_setup.zsh
+-- Installing: /home/lamps-xe11/ros2_ws/install/sub_synch/share/sub_synch/local_setup.dsv
+-- Installing: /home/lamps-xe11/ros2_ws/install/sub_synch/share/sub_synch/package.dsv
+-- Installing: /home/lamps-xe11/ros2_ws/install/sub_synch/share/ament_index/resource_index/packages/sub_synch
+-- Installing: /home/lamps-xe11/ros2_ws/install/sub_synch/share/sub_synch/cmake/sub_synchConfig.cmake
+-- Installing: /home/lamps-xe11/ros2_ws/install/sub_synch/share/sub_synch/cmake/sub_synchConfig-version.cmake
+-- Up-to-date: /home/lamps-xe11/ros2_ws/install/sub_synch/share/sub_synch/package.xml

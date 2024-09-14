@@ -1,0 +1,4 @@
+[0.069s] Invoking command in '/home/lamps-xe11/ros2_ws/build/sub_synch': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --build /home/lamps-xe11/ros2_ws/build/sub_synch -- -j4 -l4
+[0.321s] [ 50%] [32mBuilding CXX object CMakeFiles/time_synch.dir/src/time_synch.cpp.o[0m
+[56.576s] [100%] [32m[1mLinking CXX executable time_synch[0m
+[61.836s] [100%] Built target time_synch

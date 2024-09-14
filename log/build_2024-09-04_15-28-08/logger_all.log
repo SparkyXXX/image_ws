@@ -1,0 +1,219 @@
+[0.510s] DEBUG:colcon:Command line arguments: ['/usr/bin/colcon', 'build']
+[0.510s] DEBUG:colcon:Parsed command line arguments: Namespace(log_base=None, log_level=None, verb_name='build', build_base='build', install_base='install', merge_install=False, symlink_install=False, test_result_base=None, continue_on_error=False, executor='parallel', parallel_workers=4, event_handlers=None, ignore_user_meta=False, metas=['./colcon.meta'], base_paths=['.'], packages_ignore=None, packages_ignore_regex=None, paths=None, packages_up_to=None, packages_up_to_regex=None, packages_above=None, packages_above_and_dependencies=None, packages_above_depth=None, packages_select_by_dep=None, packages_skip_by_dep=None, packages_skip_up_to=None, packages_select_build_failed=False, packages_skip_build_finished=False, packages_select_test_failures=False, packages_skip_test_passed=False, packages_select=None, packages_skip=None, packages_select_regex=None, packages_skip_regex=None, packages_start=None, packages_end=None, allow_overriding=[], cmake_args=None, cmake_target=None, cmake_target_skip_unavailable=False, cmake_clean_cache=False, cmake_clean_first=False, cmake_force_configure=False, ament_cmake_args=None, catkin_cmake_args=None, catkin_skip_building_tests=False, verb_parser=<colcon_defaults.argument_parser.defaults.DefaultArgumentsDecorator object at 0xffff820079d0>, verb_extension=<colcon_core.verb.build.BuildVerb object at 0xffff82188640>, main=<bound method BuildVerb.main of <colcon_core.verb.build.BuildVerb object at 0xffff82188640>>)
+[1.401s] Level 1:colcon.colcon_core.package_discovery:discover_packages(colcon_meta) check parameters
+[1.402s] Level 1:colcon.colcon_core.package_discovery:discover_packages(recursive) check parameters
+[1.402s] Level 1:colcon.colcon_core.package_discovery:discover_packages(ignore) check parameters
+[1.402s] Level 1:colcon.colcon_core.package_discovery:discover_packages(path) check parameters
+[1.403s] Level 1:colcon.colcon_core.package_discovery:discover_packages(colcon_meta) discover
+[1.403s] Level 1:colcon.colcon_core.package_discovery:discover_packages(recursive) discover
+[1.403s] INFO:colcon.colcon_core.package_discovery:Crawling recursively for packages in '/home/lamps-xe11/ros2_ws'
+[1.404s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['ignore', 'ignore_ament_install']
+[1.404s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'ignore'
+[1.405s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'ignore_ament_install'
+[1.405s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['colcon_pkg']
+[1.405s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'colcon_pkg'
+[1.405s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['colcon_meta']
+[1.406s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'colcon_meta'
+[1.406s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['ros']
+[1.406s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'ros'
+[1.463s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['cmake', 'python']
+[1.463s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'cmake'
+[1.463s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'python'
+[1.463s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['python_setup_py']
+[1.464s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'python_setup_py'
+[1.464s] Level 1:colcon.colcon_core.package_identification:_identify(build) by extensions ['ignore', 'ignore_ament_install']
+[1.465s] Level 1:colcon.colcon_core.package_identification:_identify(build) by extension 'ignore'
+[1.465s] Level 1:colcon.colcon_core.package_identification:_identify(build) ignored
+[1.465s] Level 1:colcon.colcon_core.package_identification:_identify(image) by extensions ['ignore', 'ignore_ament_install']
+[1.466s] Level 1:colcon.colcon_core.package_identification:_identify(image) by extension 'ignore'
+[1.466s] Level 1:colcon.colcon_core.package_identification:_identify(image) by extension 'ignore_ament_install'
+[1.467s] Level 1:colcon.colcon_core.package_identification:_identify(image) by extensions ['colcon_pkg']
+[1.467s] Level 1:colcon.colcon_core.package_identification:_identify(image) by extension 'colcon_pkg'
+[1.467s] Level 1:colcon.colcon_core.package_identification:_identify(image) by extensions ['colcon_meta']
+[1.467s] Level 1:colcon.colcon_core.package_identification:_identify(image) by extension 'colcon_meta'
+[1.467s] Level 1:colcon.colcon_core.package_identification:_identify(image) by extensions ['ros']
+[1.467s] Level 1:colcon.colcon_core.package_identification:_identify(image) by extension 'ros'
+[1.468s] Level 1:colcon.colcon_core.package_identification:_identify(image) by extensions ['cmake', 'python']
+[1.468s] Level 1:colcon.colcon_core.package_identification:_identify(image) by extension 'cmake'
+[1.468s] Level 1:colcon.colcon_core.package_identification:_identify(image) by extension 'python'
+[1.468s] Level 1:colcon.colcon_core.package_identification:_identify(image) by extensions ['python_setup_py']
+[1.469s] Level 1:colcon.colcon_core.package_identification:_identify(image) by extension 'python_setup_py'
+[1.469s] Level 1:colcon.colcon_core.package_identification:_identify(install) by extensions ['ignore', 'ignore_ament_install']
+[1.470s] Level 1:colcon.colcon_core.package_identification:_identify(install) by extension 'ignore'
+[1.470s] Level 1:colcon.colcon_core.package_identification:_identify(install) ignored
+[1.471s] Level 1:colcon.colcon_core.package_identification:_identify(log) by extensions ['ignore', 'ignore_ament_install']
+[1.471s] Level 1:colcon.colcon_core.package_identification:_identify(log) by extension 'ignore'
+[1.471s] Level 1:colcon.colcon_core.package_identification:_identify(log) ignored
+[1.472s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['ignore', 'ignore_ament_install']
+[1.472s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'ignore'
+[1.472s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'ignore_ament_install'
+[1.473s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['colcon_pkg']
+[1.473s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'colcon_pkg'
+[1.473s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['colcon_meta']
+[1.473s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'colcon_meta'
+[1.473s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['ros']
+[1.473s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'ros'
+[1.474s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['cmake', 'python']
+[1.474s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'cmake'
+[1.474s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'python'
+[1.474s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['python_setup_py']
+[1.475s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'python_setup_py'
+[1.475s] Level 1:colcon.colcon_core.package_identification:_identify(src/sub_synch) by extensions ['ignore', 'ignore_ament_install']
+[1.476s] Level 1:colcon.colcon_core.package_identification:_identify(src/sub_synch) by extension 'ignore'
+[1.476s] Level 1:colcon.colcon_core.package_identification:_identify(src/sub_synch) by extension 'ignore_ament_install'
+[1.476s] Level 1:colcon.colcon_core.package_identification:_identify(src/sub_synch) by extensions ['colcon_pkg']
+[1.476s] Level 1:colcon.colcon_core.package_identification:_identify(src/sub_synch) by extension 'colcon_pkg'
+[1.476s] Level 1:colcon.colcon_core.package_identification:_identify(src/sub_synch) by extensions ['colcon_meta']
+[1.477s] Level 1:colcon.colcon_core.package_identification:_identify(src/sub_synch) by extension 'colcon_meta'
+[1.477s] Level 1:colcon.colcon_core.package_identification:_identify(src/sub_synch) by extensions ['ros']
+[1.477s] Level 1:colcon.colcon_core.package_identification:_identify(src/sub_synch) by extension 'ros'
+[1.487s] DEBUG:colcon.colcon_core.package_identification:Package 'src/sub_synch' with type 'ros.ament_cmake' and name 'sub_synch'
+[1.488s] Level 1:colcon.colcon_core.package_identification:_identify(src/two_camera) by extensions ['ignore', 'ignore_ament_install']
+[1.489s] Level 1:colcon.colcon_core.package_identification:_identify(src/two_camera) by extension 'ignore'
+[1.489s] Level 1:colcon.colcon_core.package_identification:_identify(src/two_camera) by extension 'ignore_ament_install'
+[1.489s] Level 1:colcon.colcon_core.package_identification:_identify(src/two_camera) by extensions ['colcon_pkg']
+[1.489s] Level 1:colcon.colcon_core.package_identification:_identify(src/two_camera) by extension 'colcon_pkg'
+[1.490s] Level 1:colcon.colcon_core.package_identification:_identify(src/two_camera) by extensions ['colcon_meta']
+[1.490s] Level 1:colcon.colcon_core.package_identification:_identify(src/two_camera) by extension 'colcon_meta'
+[1.490s] Level 1:colcon.colcon_core.package_identification:_identify(src/two_camera) by extensions ['ros']
+[1.490s] Level 1:colcon.colcon_core.package_identification:_identify(src/two_camera) by extension 'ros'
+[1.493s] DEBUG:colcon.colcon_core.package_identification:Package 'src/two_camera' with type 'ros.ament_cmake' and name 'two_camera'
+[1.493s] Level 1:colcon.colcon_core.package_discovery:discover_packages(recursive) using defaults
+[1.493s] Level 1:colcon.colcon_core.package_discovery:discover_packages(ignore) discover
+[1.494s] Level 1:colcon.colcon_core.package_discovery:discover_packages(ignore) using defaults
+[1.494s] Level 1:colcon.colcon_core.package_discovery:discover_packages(path) discover
+[1.494s] Level 1:colcon.colcon_core.package_discovery:discover_packages(path) using defaults
+[1.580s] Level 1:colcon.colcon_core.package_discovery:discover_packages(prefix_path) check parameters
+[1.580s] Level 1:colcon.colcon_core.package_discovery:discover_packages(prefix_path) discover
+[1.590s] DEBUG:colcon.colcon_installed_package_information.package_discovery:Found 2 installed packages in /home/lamps-xe11/ros2_ws/install
+[1.600s] DEBUG:colcon.colcon_installed_package_information.package_discovery:Found 270 installed packages in /opt/ros/humble
+[1.608s] Level 1:colcon.colcon_core.package_discovery:discover_packages(prefix_path) using defaults
+[1.857s] Level 5:colcon.colcon_core.verb:set package 'sub_synch' build argument 'cmake_args' from command line to 'None'
+[1.857s] Level 5:colcon.colcon_core.verb:set package 'sub_synch' build argument 'cmake_target' from command line to 'None'
+[1.857s] Level 5:colcon.colcon_core.verb:set package 'sub_synch' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[1.857s] Level 5:colcon.colcon_core.verb:set package 'sub_synch' build argument 'cmake_clean_cache' from command line to 'False'
+[1.858s] Level 5:colcon.colcon_core.verb:set package 'sub_synch' build argument 'cmake_clean_first' from command line to 'False'
+[1.858s] Level 5:colcon.colcon_core.verb:set package 'sub_synch' build argument 'cmake_force_configure' from command line to 'False'
+[1.858s] Level 5:colcon.colcon_core.verb:set package 'sub_synch' build argument 'ament_cmake_args' from command line to 'None'
+[1.858s] Level 5:colcon.colcon_core.verb:set package 'sub_synch' build argument 'catkin_cmake_args' from command line to 'None'
+[1.858s] Level 5:colcon.colcon_core.verb:set package 'sub_synch' build argument 'catkin_skip_building_tests' from command line to 'False'
+[1.858s] DEBUG:colcon.colcon_core.verb:Building package 'sub_synch' with the following arguments: {'ament_cmake_args': None, 'build_base': '/home/lamps-xe11/ros2_ws/build/sub_synch', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/home/lamps-xe11/ros2_ws/install/sub_synch', 'merge_install': False, 'path': '/home/lamps-xe11/ros2_ws/src/sub_synch', 'symlink_install': False, 'test_result_base': None}
+[1.860s] Level 5:colcon.colcon_core.verb:set package 'two_camera' build argument 'cmake_args' from command line to 'None'
+[1.860s] Level 5:colcon.colcon_core.verb:set package 'two_camera' build argument 'cmake_target' from command line to 'None'
+[1.861s] Level 5:colcon.colcon_core.verb:set package 'two_camera' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[1.861s] Level 5:colcon.colcon_core.verb:set package 'two_camera' build argument 'cmake_clean_cache' from command line to 'False'
+[1.861s] Level 5:colcon.colcon_core.verb:set package 'two_camera' build argument 'cmake_clean_first' from command line to 'False'
+[1.861s] Level 5:colcon.colcon_core.verb:set package 'two_camera' build argument 'cmake_force_configure' from command line to 'False'
+[1.861s] Level 5:colcon.colcon_core.verb:set package 'two_camera' build argument 'ament_cmake_args' from command line to 'None'
+[1.861s] Level 5:colcon.colcon_core.verb:set package 'two_camera' build argument 'catkin_cmake_args' from command line to 'None'
+[1.861s] Level 5:colcon.colcon_core.verb:set package 'two_camera' build argument 'catkin_skip_building_tests' from command line to 'False'
+[1.862s] DEBUG:colcon.colcon_core.verb:Building package 'two_camera' with the following arguments: {'ament_cmake_args': None, 'build_base': '/home/lamps-xe11/ros2_ws/build/two_camera', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/home/lamps-xe11/ros2_ws/install/two_camera', 'merge_install': False, 'path': '/home/lamps-xe11/ros2_ws/src/two_camera', 'symlink_install': False, 'test_result_base': None}
+[1.862s] INFO:colcon.colcon_core.executor:Executing jobs using 'parallel' executor
+[1.866s] DEBUG:colcon.colcon_parallel_executor.executor.parallel:run_until_complete
+[1.867s] INFO:colcon.colcon_ros.task.ament_cmake.build:Building ROS package in '/home/lamps-xe11/ros2_ws/src/sub_synch' with build type 'ament_cmake'
+[1.868s] INFO:colcon.colcon_cmake.task.cmake.build:Building CMake package in '/home/lamps-xe11/ros2_ws/src/sub_synch'
+[1.879s] INFO:colcon.colcon_core.plugin_system:Skipping extension 'colcon_core.shell.bat': Not used on non-Windows systems
+[1.880s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[1.880s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[1.902s] INFO:colcon.colcon_ros.task.ament_cmake.build:Building ROS package in '/home/lamps-xe11/ros2_ws/src/two_camera' with build type 'ament_cmake'
+[1.903s] INFO:colcon.colcon_cmake.task.cmake.build:Building CMake package in '/home/lamps-xe11/ros2_ws/src/two_camera'
+[1.905s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[1.905s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[1.950s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/lamps-xe11/ros2_ws/build/sub_synch': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --build /home/lamps-xe11/ros2_ws/build/sub_synch -- -j4 -l4
+[1.980s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/lamps-xe11/ros2_ws/build/two_camera': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --build /home/lamps-xe11/ros2_ws/build/two_camera -- -j4 -l4
+[47.454s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/lamps-xe11/ros2_ws/build/two_camera' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --build /home/lamps-xe11/ros2_ws/build/two_camera -- -j4 -l4
+[47.717s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/lamps-xe11/ros2_ws/build/two_camera': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --install /home/lamps-xe11/ros2_ws/build/two_camera
+[47.796s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(two_camera)
+[47.798s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/lamps-xe11/ros2_ws/build/two_camera' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --install /home/lamps-xe11/ros2_ws/build/two_camera
+[47.813s] Level 1:colcon.colcon_core.environment:checking '/home/lamps-xe11/ros2_ws/install/two_camera' for CMake module files
+[47.817s] Level 1:colcon.colcon_core.environment:checking '/home/lamps-xe11/ros2_ws/install/two_camera' for CMake config files
+[47.821s] Level 1:colcon.colcon_core.shell:create_environment_hook('two_camera', 'cmake_prefix_path')
+[47.822s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/lamps-xe11/ros2_ws/install/two_camera/share/two_camera/hook/cmake_prefix_path.ps1'
+[47.826s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/lamps-xe11/ros2_ws/install/two_camera/share/two_camera/hook/cmake_prefix_path.dsv'
+[47.829s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/lamps-xe11/ros2_ws/install/two_camera/share/two_camera/hook/cmake_prefix_path.sh'
+[47.834s] Level 1:colcon.colcon_core.environment:checking '/home/lamps-xe11/ros2_ws/install/two_camera/lib'
+[47.836s] Level 1:colcon.colcon_core.environment:checking '/home/lamps-xe11/ros2_ws/install/two_camera/bin'
+[47.836s] Level 1:colcon.colcon_core.environment:checking '/home/lamps-xe11/ros2_ws/install/two_camera/lib/pkgconfig/two_camera.pc'
+[47.837s] Level 1:colcon.colcon_core.environment:checking '/home/lamps-xe11/ros2_ws/install/two_camera/lib/python3.10/site-packages'
+[47.839s] Level 1:colcon.colcon_core.environment:checking '/home/lamps-xe11/ros2_ws/install/two_camera/bin'
+[47.841s] INFO:colcon.colcon_core.shell:Creating package script '/home/lamps-xe11/ros2_ws/install/two_camera/share/two_camera/package.ps1'
+[47.845s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/lamps-xe11/ros2_ws/install/two_camera/share/two_camera/package.dsv'
+[47.849s] INFO:colcon.colcon_core.shell:Creating package script '/home/lamps-xe11/ros2_ws/install/two_camera/share/two_camera/package.sh'
+[47.853s] INFO:colcon.colcon_core.shell:Creating package script '/home/lamps-xe11/ros2_ws/install/two_camera/share/two_camera/package.bash'
+[47.858s] INFO:colcon.colcon_core.shell:Creating package script '/home/lamps-xe11/ros2_ws/install/two_camera/share/two_camera/package.zsh'
+[47.862s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/lamps-xe11/ros2_ws/install/two_camera/share/colcon-core/packages/two_camera)
+[48.077s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(two_camera)
+[48.079s] Level 1:colcon.colcon_core.environment:checking '/home/lamps-xe11/ros2_ws/install/two_camera' for CMake module files
+[48.083s] Level 1:colcon.colcon_core.environment:checking '/home/lamps-xe11/ros2_ws/install/two_camera' for CMake config files
+[48.085s] Level 1:colcon.colcon_core.shell:create_environment_hook('two_camera', 'cmake_prefix_path')
+[48.087s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/lamps-xe11/ros2_ws/install/two_camera/share/two_camera/hook/cmake_prefix_path.ps1'
+[48.090s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/lamps-xe11/ros2_ws/install/two_camera/share/two_camera/hook/cmake_prefix_path.dsv'
+[48.092s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/lamps-xe11/ros2_ws/install/two_camera/share/two_camera/hook/cmake_prefix_path.sh'
+[48.097s] Level 1:colcon.colcon_core.environment:checking '/home/lamps-xe11/ros2_ws/install/two_camera/lib'
+[48.098s] Level 1:colcon.colcon_core.environment:checking '/home/lamps-xe11/ros2_ws/install/two_camera/bin'
+[48.099s] Level 1:colcon.colcon_core.environment:checking '/home/lamps-xe11/ros2_ws/install/two_camera/lib/pkgconfig/two_camera.pc'
+[48.101s] Level 1:colcon.colcon_core.environment:checking '/home/lamps-xe11/ros2_ws/install/two_camera/lib/python3.10/site-packages'
+[48.103s] Level 1:colcon.colcon_core.environment:checking '/home/lamps-xe11/ros2_ws/install/two_camera/bin'
+[48.105s] INFO:colcon.colcon_core.shell:Creating package script '/home/lamps-xe11/ros2_ws/install/two_camera/share/two_camera/package.ps1'
+[48.108s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/lamps-xe11/ros2_ws/install/two_camera/share/two_camera/package.dsv'
+[48.112s] INFO:colcon.colcon_core.shell:Creating package script '/home/lamps-xe11/ros2_ws/install/two_camera/share/two_camera/package.sh'
+[48.117s] INFO:colcon.colcon_core.shell:Creating package script '/home/lamps-xe11/ros2_ws/install/two_camera/share/two_camera/package.bash'
+[48.120s] INFO:colcon.colcon_core.shell:Creating package script '/home/lamps-xe11/ros2_ws/install/two_camera/share/two_camera/package.zsh'
+[48.123s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/lamps-xe11/ros2_ws/install/two_camera/share/colcon-core/packages/two_camera)
+[69.619s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/lamps-xe11/ros2_ws/build/sub_synch' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --build /home/lamps-xe11/ros2_ws/build/sub_synch -- -j4 -l4
+[69.775s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/lamps-xe11/ros2_ws/build/sub_synch': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --install /home/lamps-xe11/ros2_ws/build/sub_synch
+[69.866s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(sub_synch)
+[69.868s] Level 1:colcon.colcon_core.environment:checking '/home/lamps-xe11/ros2_ws/install/sub_synch' for CMake module files
+[69.870s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/lamps-xe11/ros2_ws/build/sub_synch' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --install /home/lamps-xe11/ros2_ws/build/sub_synch
+[69.872s] Level 1:colcon.colcon_core.environment:checking '/home/lamps-xe11/ros2_ws/install/sub_synch' for CMake config files
+[69.874s] Level 1:colcon.colcon_core.shell:create_environment_hook('sub_synch', 'cmake_prefix_path')
+[69.875s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/lamps-xe11/ros2_ws/install/sub_synch/share/sub_synch/hook/cmake_prefix_path.ps1'
+[69.878s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/lamps-xe11/ros2_ws/install/sub_synch/share/sub_synch/hook/cmake_prefix_path.dsv'
+[69.880s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/lamps-xe11/ros2_ws/install/sub_synch/share/sub_synch/hook/cmake_prefix_path.sh'
+[69.883s] Level 1:colcon.colcon_core.environment:checking '/home/lamps-xe11/ros2_ws/install/sub_synch/lib'
+[69.884s] Level 1:colcon.colcon_core.environment:checking '/home/lamps-xe11/ros2_ws/install/sub_synch/bin'
+[69.885s] Level 1:colcon.colcon_core.environment:checking '/home/lamps-xe11/ros2_ws/install/sub_synch/lib/pkgconfig/sub_synch.pc'
+[69.886s] Level 1:colcon.colcon_core.environment:checking '/home/lamps-xe11/ros2_ws/install/sub_synch/lib/python3.10/site-packages'
+[69.887s] Level 1:colcon.colcon_core.environment:checking '/home/lamps-xe11/ros2_ws/install/sub_synch/bin'
+[69.889s] INFO:colcon.colcon_core.shell:Creating package script '/home/lamps-xe11/ros2_ws/install/sub_synch/share/sub_synch/package.ps1'
+[69.891s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/lamps-xe11/ros2_ws/install/sub_synch/share/sub_synch/package.dsv'
+[69.894s] INFO:colcon.colcon_core.shell:Creating package script '/home/lamps-xe11/ros2_ws/install/sub_synch/share/sub_synch/package.sh'
+[69.896s] INFO:colcon.colcon_core.shell:Creating package script '/home/lamps-xe11/ros2_ws/install/sub_synch/share/sub_synch/package.bash'
+[69.898s] INFO:colcon.colcon_core.shell:Creating package script '/home/lamps-xe11/ros2_ws/install/sub_synch/share/sub_synch/package.zsh'
+[69.900s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/lamps-xe11/ros2_ws/install/sub_synch/share/colcon-core/packages/sub_synch)
+[70.046s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(sub_synch)
+[70.047s] Level 1:colcon.colcon_core.environment:checking '/home/lamps-xe11/ros2_ws/install/sub_synch' for CMake module files
+[70.051s] Level 1:colcon.colcon_core.environment:checking '/home/lamps-xe11/ros2_ws/install/sub_synch' for CMake config files
+[70.054s] Level 1:colcon.colcon_core.shell:create_environment_hook('sub_synch', 'cmake_prefix_path')
+[70.055s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/lamps-xe11/ros2_ws/install/sub_synch/share/sub_synch/hook/cmake_prefix_path.ps1'
+[70.058s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/lamps-xe11/ros2_ws/install/sub_synch/share/sub_synch/hook/cmake_prefix_path.dsv'
+[70.060s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/lamps-xe11/ros2_ws/install/sub_synch/share/sub_synch/hook/cmake_prefix_path.sh'
+[70.063s] Level 1:colcon.colcon_core.environment:checking '/home/lamps-xe11/ros2_ws/install/sub_synch/lib'
+[70.064s] Level 1:colcon.colcon_core.environment:checking '/home/lamps-xe11/ros2_ws/install/sub_synch/bin'
+[70.064s] Level 1:colcon.colcon_core.environment:checking '/home/lamps-xe11/ros2_ws/install/sub_synch/lib/pkgconfig/sub_synch.pc'
+[70.065s] Level 1:colcon.colcon_core.environment:checking '/home/lamps-xe11/ros2_ws/install/sub_synch/lib/python3.10/site-packages'
+[70.067s] Level 1:colcon.colcon_core.environment:checking '/home/lamps-xe11/ros2_ws/install/sub_synch/bin'
+[70.068s] INFO:colcon.colcon_core.shell:Creating package script '/home/lamps-xe11/ros2_ws/install/sub_synch/share/sub_synch/package.ps1'
+[70.071s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/lamps-xe11/ros2_ws/install/sub_synch/share/sub_synch/package.dsv'
+[70.073s] INFO:colcon.colcon_core.shell:Creating package script '/home/lamps-xe11/ros2_ws/install/sub_synch/share/sub_synch/package.sh'
+[70.076s] INFO:colcon.colcon_core.shell:Creating package script '/home/lamps-xe11/ros2_ws/install/sub_synch/share/sub_synch/package.bash'
+[70.078s] INFO:colcon.colcon_core.shell:Creating package script '/home/lamps-xe11/ros2_ws/install/sub_synch/share/sub_synch/package.zsh'
+[70.081s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/lamps-xe11/ros2_ws/install/sub_synch/share/colcon-core/packages/sub_synch)
+[70.083s] DEBUG:colcon.colcon_parallel_executor.executor.parallel:closing loop
+[70.084s] DEBUG:colcon.colcon_parallel_executor.executor.parallel:loop closed
+[70.084s] DEBUG:colcon.colcon_parallel_executor.executor.parallel:run_until_complete finished with '0'
+[70.085s] DEBUG:colcon.colcon_core.event_reactor:joining thread
+[70.110s] INFO:colcon.colcon_core.plugin_system:Skipping extension 'colcon_notification.desktop_notification.terminal_notifier': Not used on non-Darwin systems
+[70.111s] INFO:colcon.colcon_core.plugin_system:Skipping extension 'colcon_notification.desktop_notification.win32': Not used on non-Windows systems
+[70.111s] INFO:colcon.colcon_notification.desktop_notification:Sending desktop notification using 'notify2'
+[70.156s] DEBUG:colcon.colcon_core.event_reactor:joined thread
+[70.157s] INFO:colcon.colcon_core.shell:Creating prefix script '/home/lamps-xe11/ros2_ws/install/local_setup.ps1'
+[70.161s] INFO:colcon.colcon_core.shell:Creating prefix util module '/home/lamps-xe11/ros2_ws/install/_local_setup_util_ps1.py'
+[70.167s] INFO:colcon.colcon_core.shell:Creating prefix chain script '/home/lamps-xe11/ros2_ws/install/setup.ps1'
+[70.173s] INFO:colcon.colcon_core.shell:Creating prefix script '/home/lamps-xe11/ros2_ws/install/local_setup.sh'
+[70.177s] INFO:colcon.colcon_core.shell:Creating prefix util module '/home/lamps-xe11/ros2_ws/install/_local_setup_util_sh.py'
+[70.179s] INFO:colcon.colcon_core.shell:Creating prefix chain script '/home/lamps-xe11/ros2_ws/install/setup.sh'
+[70.185s] INFO:colcon.colcon_core.shell:Creating prefix script '/home/lamps-xe11/ros2_ws/install/local_setup.bash'
+[70.187s] INFO:colcon.colcon_core.shell:Creating prefix chain script '/home/lamps-xe11/ros2_ws/install/setup.bash'
+[70.193s] INFO:colcon.colcon_core.shell:Creating prefix script '/home/lamps-xe11/ros2_ws/install/local_setup.zsh'
+[70.195s] INFO:colcon.colcon_core.shell:Creating prefix chain script '/home/lamps-xe11/ros2_ws/install/setup.zsh'

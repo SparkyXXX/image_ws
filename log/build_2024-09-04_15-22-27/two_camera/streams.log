@@ -1,0 +1,33 @@
+[0.088s] Invoking command in '/home/lamps-xe11/ros2_ws/build/two_camera': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --build /home/lamps-xe11/ros2_ws/build/two_camera -- -j4 -l4
+[0.454s] [35m[1mConsolidate compiler generated dependencies of target appsink1[0m
+[0.456s] [35m[1mConsolidate compiler generated dependencies of target appsink2[0m
+[0.464s] [35m[1mConsolidate compiler generated dependencies of target appsink3[0m
+[0.508s] [35m[1mConsolidate compiler generated dependencies of target appsink4[0m
+[0.848s] [ 25%] Built target appsink1
+[0.854s] [ 50%] Built target appsink4
+[0.871s] [ 75%] Built target appsink2
+[0.875s] [100%] Built target appsink3
+[0.923s] Invoked command in '/home/lamps-xe11/ros2_ws/build/two_camera' returned '0': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --build /home/lamps-xe11/ros2_ws/build/two_camera -- -j4 -l4
+[1.203s] Invoking command in '/home/lamps-xe11/ros2_ws/build/two_camera': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --install /home/lamps-xe11/ros2_ws/build/two_camera
+[1.238s] -- Install configuration: ""
+[1.239s] -- Up-to-date: /home/lamps-xe11/ros2_ws/install/two_camera/lib/two_camera/appsink1
+[1.242s] -- Up-to-date: /home/lamps-xe11/ros2_ws/install/two_camera/lib/two_camera/appsink2
+[1.245s] -- Up-to-date: /home/lamps-xe11/ros2_ws/install/two_camera/lib/two_camera/appsink3
+[1.248s] -- Up-to-date: /home/lamps-xe11/ros2_ws/install/two_camera/lib/two_camera/appsink4
+[1.250s] -- Up-to-date: /home/lamps-xe11/ros2_ws/install/two_camera/share/two_camera//launch
+[1.251s] -- Up-to-date: /home/lamps-xe11/ros2_ws/install/two_camera/share/ament_index/resource_index/package_run_dependencies/two_camera
+[1.252s] -- Up-to-date: /home/lamps-xe11/ros2_ws/install/two_camera/share/ament_index/resource_index/parent_prefix_path/two_camera
+[1.253s] -- Up-to-date: /home/lamps-xe11/ros2_ws/install/two_camera/share/two_camera/environment/ament_prefix_path.sh
+[1.255s] -- Up-to-date: /home/lamps-xe11/ros2_ws/install/two_camera/share/two_camera/environment/ament_prefix_path.dsv
+[1.256s] -- Up-to-date: /home/lamps-xe11/ros2_ws/install/two_camera/share/two_camera/environment/path.sh
+[1.256s] -- Up-to-date: /home/lamps-xe11/ros2_ws/install/two_camera/share/two_camera/environment/path.dsv
+[1.257s] -- Up-to-date: /home/lamps-xe11/ros2_ws/install/two_camera/share/two_camera/local_setup.bash
+[1.258s] -- Up-to-date: /home/lamps-xe11/ros2_ws/install/two_camera/share/two_camera/local_setup.sh
+[1.258s] -- Up-to-date: /home/lamps-xe11/ros2_ws/install/two_camera/share/two_camera/local_setup.zsh
+[1.259s] -- Up-to-date: /home/lamps-xe11/ros2_ws/install/two_camera/share/two_camera/local_setup.dsv
+[1.260s] -- Installing: /home/lamps-xe11/ros2_ws/install/two_camera/share/two_camera/package.dsv
+[1.261s] -- Up-to-date: /home/lamps-xe11/ros2_ws/install/two_camera/share/ament_index/resource_index/packages/two_camera
+[1.262s] -- Up-to-date: /home/lamps-xe11/ros2_ws/install/two_camera/share/two_camera/cmake/two_cameraConfig.cmake
+[1.262s] -- Up-to-date: /home/lamps-xe11/ros2_ws/install/two_camera/share/two_camera/cmake/two_cameraConfig-version.cmake
+[1.263s] -- Up-to-date: /home/lamps-xe11/ros2_ws/install/two_camera/share/two_camera/package.xml
+[1.272s] Invoked command in '/home/lamps-xe11/ros2_ws/build/two_camera' returned '0': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --install /home/lamps-xe11/ros2_ws/build/two_camera

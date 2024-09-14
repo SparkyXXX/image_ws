@@ -1,0 +1,1 @@
+Invoking command in '/home/lamps-xe11/ros2_ws/build/sub_synch': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake /home/lamps-xe11/ros2_ws/src/sub_synch -DCMAKE_INSTALL_PREFIX=/home/lamps-xe11/ros2_ws/install/sub_synch

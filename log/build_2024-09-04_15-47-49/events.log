@@ -1,0 +1,613 @@
+[0.000000] (-) TimerEvent: {}
+[0.002192] (sub_synch) JobQueued: {'identifier': 'sub_synch', 'dependencies': OrderedDict()}
+[0.002833] (two_camera) JobQueued: {'identifier': 'two_camera', 'dependencies': OrderedDict()}
+[0.003362] (sub_synch) JobStarted: {'identifier': 'sub_synch'}
+[0.036511] (two_camera) JobStarted: {'identifier': 'two_camera'}
+[0.068752] (sub_synch) JobProgress: {'identifier': 'sub_synch', 'progress': 'cmake'}
+[0.072644] (sub_synch) JobProgress: {'identifier': 'sub_synch', 'progress': 'build'}
+[0.075661] (sub_synch) Command: {'cmd': ['/usr/bin/cmake', '--build', '/home/lamps-xe11/ros2_ws/build/sub_synch', '--', '-j4', '-l4'], 'cwd': '/home/lamps-xe11/ros2_ws/build/sub_synch', 'env': OrderedDict([('LESSOPEN', '| /usr/bin/lesspipe %s'), ('LANGUAGE', 'zh_CN:en'), ('USER', 'lamps-xe11'), ('SSH_CLIENT', '192.168.1.104 1324 22'), ('LC_TIME', 'zh_CN.UTF-8'), ('XDG_SESSION_TYPE', 'tty'), ('SHLVL', '1'), ('LD_LIBRARY_PATH', '/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/aarch64-linux-gnu:/opt/ros/humble/lib'), ('BROWSER', '/home/lamps-xe11/.vscode-server/cli/servers/Stable-fee1edb8d6d72a0ddff41e5f71a671c23ed924b9/server/bin/helpers/browser.sh'), ('MOTD_SHOWN', 'pam'), ('HOME', '/home/lamps-xe11'), ('OLDPWD', '/home/lamps-xe11/ros2_ws/src/sub_synch'), ('TERM_PROGRAM_VERSION', '1.92.2'), ('VSCODE_IPC_HOOK_CLI', '/run/user/1000/vscode-ipc-d3ec0e65-b93e-441d-853c-cda3fe52e3c7.sock'), ('ROS_PYTHON_VERSION', '3'), ('LC_MONETARY', 'zh_CN.UTF-8'), ('SSL_CERT_FILE', '/usr/lib/ssl/certs/ca-certificates.crt'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/1000/bus'), ('COLORTERM', 'truecolor'), ('COLCON_PREFIX_PATH', '/home/lamps-xe11/ros2_ws/install'), ('ROS_DISTRO', 'humble'), ('LOGNAME', 'lamps-xe11'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('XDG_SESSION_CLASS', 'user'), ('TERM', 'xterm-256color'), ('XDG_SESSION_ID', '6'), ('ROS_LOCALHOST_ONLY', '0'), ('PATH', '/opt/ros/humble/bin:/home/lamps-xe11/.vscode-server/cli/servers/Stable-fee1edb8d6d72a0ddff41e5f71a671c23ed924b9/server/bin/remote-cli:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin'), ('PAPERSIZE', 'a4'), ('LC_ADDRESS', 'zh_CN.UTF-8'), ('XDG_RUNTIME_DIR', '/run/user/1000'), ('SSL_CERT_DIR', '/usr/lib/ssl/certs'), ('LANG', 'zh_CN.UTF-8'), ('LC_TELEPHONE', 'zh_CN.UTF-8'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('TERM_PROGRAM', 'vscode'), ('AMENT_PREFIX_PATH', '/home/lamps-xe11/ros2_ws/install/two_camera:/home/lamps-xe11/ros2_ws/install/sub_synch:/opt/ros/humble'), ('SHELL', '/bin/bash'), ('LC_NAME', 'zh_CN.UTF-8'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('LC_MEASUREMENT', 'zh_CN.UTF-8'), ('LC_IDENTIFICATION', 'zh_CN.UTF-8'), ('PWD', '/home/lamps-xe11/ros2_ws/build/sub_synch'), ('SSH_CONNECTION', '192.168.1.104 1324 192.168.1.106 22'), ('PYTHONPATH', '/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages'), ('LC_NUMERIC', 'zh_CN.UTF-8'), ('LC_PAPER', 'zh_CN.UTF-8'), ('COLCON', '1'), ('CMAKE_PREFIX_PATH', '/home/lamps-xe11/ros2_ws/install/two_camera:/home/lamps-xe11/ros2_ws/install/sub_synch:/opt/ros/humble')]), 'shell': False}
+[0.096729] (two_camera) JobProgress: {'identifier': 'two_camera', 'progress': 'cmake'}
+[0.099163] (-) TimerEvent: {}
+[0.101738] (two_camera) JobProgress: {'identifier': 'two_camera', 'progress': 'build'}
+[0.110193] (two_camera) Command: {'cmd': ['/usr/bin/cmake', '--build', '/home/lamps-xe11/ros2_ws/build/two_camera', '--', '-j4', '-l4'], 'cwd': '/home/lamps-xe11/ros2_ws/build/two_camera', 'env': OrderedDict([('LESSOPEN', '| /usr/bin/lesspipe %s'), ('LANGUAGE', 'zh_CN:en'), ('USER', 'lamps-xe11'), ('SSH_CLIENT', '192.168.1.104 1324 22'), ('LC_TIME', 'zh_CN.UTF-8'), ('XDG_SESSION_TYPE', 'tty'), ('SHLVL', '1'), ('LD_LIBRARY_PATH', '/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/aarch64-linux-gnu:/opt/ros/humble/lib'), ('BROWSER', '/home/lamps-xe11/.vscode-server/cli/servers/Stable-fee1edb8d6d72a0ddff41e5f71a671c23ed924b9/server/bin/helpers/browser.sh'), ('MOTD_SHOWN', 'pam'), ('HOME', '/home/lamps-xe11'), ('OLDPWD', '/home/lamps-xe11/ros2_ws/src/sub_synch'), ('TERM_PROGRAM_VERSION', '1.92.2'), ('VSCODE_IPC_HOOK_CLI', '/run/user/1000/vscode-ipc-d3ec0e65-b93e-441d-853c-cda3fe52e3c7.sock'), ('ROS_PYTHON_VERSION', '3'), ('LC_MONETARY', 'zh_CN.UTF-8'), ('SSL_CERT_FILE', '/usr/lib/ssl/certs/ca-certificates.crt'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/1000/bus'), ('COLORTERM', 'truecolor'), ('COLCON_PREFIX_PATH', '/home/lamps-xe11/ros2_ws/install'), ('ROS_DISTRO', 'humble'), ('LOGNAME', 'lamps-xe11'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('XDG_SESSION_CLASS', 'user'), ('TERM', 'xterm-256color'), ('XDG_SESSION_ID', '6'), ('ROS_LOCALHOST_ONLY', '0'), ('PATH', '/opt/ros/humble/bin:/home/lamps-xe11/.vscode-server/cli/servers/Stable-fee1edb8d6d72a0ddff41e5f71a671c23ed924b9/server/bin/remote-cli:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin'), ('PAPERSIZE', 'a4'), ('LC_ADDRESS', 'zh_CN.UTF-8'), ('XDG_RUNTIME_DIR', '/run/user/1000'), ('SSL_CERT_DIR', '/usr/lib/ssl/certs'), ('LANG', 'zh_CN.UTF-8'), ('LC_TELEPHONE', 'zh_CN.UTF-8'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('TERM_PROGRAM', 'vscode'), ('AMENT_PREFIX_PATH', '/home/lamps-xe11/ros2_ws/install/two_camera:/home/lamps-xe11/ros2_ws/install/sub_synch:/opt/ros/humble'), ('SHELL', '/bin/bash'), ('LC_NAME', 'zh_CN.UTF-8'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('LC_MEASUREMENT', 'zh_CN.UTF-8'), ('LC_IDENTIFICATION', 'zh_CN.UTF-8'), ('PWD', '/home/lamps-xe11/ros2_ws/build/two_camera'), ('SSH_CONNECTION', '192.168.1.104 1324 192.168.1.106 22'), ('PYTHONPATH', '/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages'), ('LC_NUMERIC', 'zh_CN.UTF-8'), ('LC_PAPER', 'zh_CN.UTF-8'), ('COLCON', '1'), ('CMAKE_PREFIX_PATH', '/home/lamps-xe11/ros2_ws/install/two_camera:/home/lamps-xe11/ros2_ws/install/sub_synch:/opt/ros/humble')]), 'shell': False}
+[0.199397] (-) TimerEvent: {}
+[0.300713] (-) TimerEvent: {}
+[0.361026] (two_camera) StdoutLine: {'line': b'\x1b[35m\x1b[1mConsolidate compiler generated dependencies of target appsink3\x1b[0m\n'}
+[0.400928] (-) TimerEvent: {}
+[0.403591] (two_camera) StdoutLine: {'line': b'\x1b[35m\x1b[1mConsolidate compiler generated dependencies of target appsink4\x1b[0m\n'}
+[0.407828] (two_camera) StdoutLine: {'line': b'\x1b[35m\x1b[1mConsolidate compiler generated dependencies of target appsink2\x1b[0m\n'}
+[0.461108] (sub_synch) StdoutLine: {'line': b'[ 50%] \x1b[32mBuilding CXX object CMakeFiles/time_synch.dir/src/time_synch.cpp.o\x1b[0m\n'}
+[0.494030] (two_camera) StdoutLine: {'line': b'[ 25%] Built target appsink1\n'}
+[0.501259] (-) TimerEvent: {}
+[0.602612] (-) TimerEvent: {}
+[0.669688] (two_camera) StdoutLine: {'line': b'[ 50%] Built target appsink2\n'}
+[0.702856] (-) TimerEvent: {}
+[0.707545] (two_camera) StdoutLine: {'line': b'[ 75%] Built target appsink4\n'}
+[0.725072] (two_camera) StdoutLine: {'line': b'[100%] Built target appsink3\n'}
+[0.771030] (two_camera) CommandEnded: {'returncode': 0}
+[0.803112] (-) TimerEvent: {}
+[0.904663] (-) TimerEvent: {}
+[0.972490] (two_camera) JobProgress: {'identifier': 'two_camera', 'progress': 'install'}
+[1.004898] (-) TimerEvent: {}
+[1.009607] (two_camera) Command: {'cmd': ['/usr/bin/cmake', '--install', '/home/lamps-xe11/ros2_ws/build/two_camera'], 'cwd': '/home/lamps-xe11/ros2_ws/build/two_camera', 'env': OrderedDict([('LESSOPEN', '| /usr/bin/lesspipe %s'), ('LANGUAGE', 'zh_CN:en'), ('USER', 'lamps-xe11'), ('SSH_CLIENT', '192.168.1.104 1324 22'), ('LC_TIME', 'zh_CN.UTF-8'), ('XDG_SESSION_TYPE', 'tty'), ('SHLVL', '1'), ('LD_LIBRARY_PATH', '/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/aarch64-linux-gnu:/opt/ros/humble/lib'), ('BROWSER', '/home/lamps-xe11/.vscode-server/cli/servers/Stable-fee1edb8d6d72a0ddff41e5f71a671c23ed924b9/server/bin/helpers/browser.sh'), ('MOTD_SHOWN', 'pam'), ('HOME', '/home/lamps-xe11'), ('OLDPWD', '/home/lamps-xe11/ros2_ws/src/sub_synch'), ('TERM_PROGRAM_VERSION', '1.92.2'), ('VSCODE_IPC_HOOK_CLI', '/run/user/1000/vscode-ipc-d3ec0e65-b93e-441d-853c-cda3fe52e3c7.sock'), ('ROS_PYTHON_VERSION', '3'), ('LC_MONETARY', 'zh_CN.UTF-8'), ('SSL_CERT_FILE', '/usr/lib/ssl/certs/ca-certificates.crt'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/1000/bus'), ('COLORTERM', 'truecolor'), ('COLCON_PREFIX_PATH', '/home/lamps-xe11/ros2_ws/install'), ('ROS_DISTRO', 'humble'), ('LOGNAME', 'lamps-xe11'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('XDG_SESSION_CLASS', 'user'), ('TERM', 'xterm-256color'), ('XDG_SESSION_ID', '6'), ('ROS_LOCALHOST_ONLY', '0'), ('PATH', '/opt/ros/humble/bin:/home/lamps-xe11/.vscode-server/cli/servers/Stable-fee1edb8d6d72a0ddff41e5f71a671c23ed924b9/server/bin/remote-cli:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin'), ('PAPERSIZE', 'a4'), ('LC_ADDRESS', 'zh_CN.UTF-8'), ('XDG_RUNTIME_DIR', '/run/user/1000'), ('SSL_CERT_DIR', '/usr/lib/ssl/certs'), ('LANG', 'zh_CN.UTF-8'), ('LC_TELEPHONE', 'zh_CN.UTF-8'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('TERM_PROGRAM', 'vscode'), ('AMENT_PREFIX_PATH', '/home/lamps-xe11/ros2_ws/install/two_camera:/home/lamps-xe11/ros2_ws/install/sub_synch:/opt/ros/humble'), ('SHELL', '/bin/bash'), ('LC_NAME', 'zh_CN.UTF-8'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('LC_MEASUREMENT', 'zh_CN.UTF-8'), ('LC_IDENTIFICATION', 'zh_CN.UTF-8'), ('PWD', '/home/lamps-xe11/ros2_ws/build/two_camera'), ('SSH_CONNECTION', '192.168.1.104 1324 192.168.1.106 22'), ('PYTHONPATH', '/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages'), ('LC_NUMERIC', 'zh_CN.UTF-8'), ('LC_PAPER', 'zh_CN.UTF-8'), ('COLCON', '1'), ('CMAKE_PREFIX_PATH', '/home/lamps-xe11/ros2_ws/install/two_camera:/home/lamps-xe11/ros2_ws/install/sub_synch:/opt/ros/humble')]), 'shell': False}
+[1.047028] (two_camera) StdoutLine: {'line': b'-- Install configuration: ""\n'}
+[1.048958] (two_camera) StdoutLine: {'line': b'-- Up-to-date: /home/lamps-xe11/ros2_ws/install/two_camera/lib/two_camera/appsink1\n'}
+[1.051929] (two_camera) StdoutLine: {'line': b'-- Up-to-date: /home/lamps-xe11/ros2_ws/install/two_camera/lib/two_camera/appsink2\n'}
+[1.055284] (two_camera) StdoutLine: {'line': b'-- Up-to-date: /home/lamps-xe11/ros2_ws/install/two_camera/lib/two_camera/appsink3\n'}
+[1.058200] (two_camera) StdoutLine: {'line': b'-- Up-to-date: /home/lamps-xe11/ros2_ws/install/two_camera/lib/two_camera/appsink4\n'}
+[1.059996] (two_camera) StdoutLine: {'line': b'-- Up-to-date: /home/lamps-xe11/ros2_ws/install/two_camera/share/two_camera//launch\n'}
+[1.061049] (two_camera) StdoutLine: {'line': b'-- Up-to-date: /home/lamps-xe11/ros2_ws/install/two_camera/share/ament_index/resource_index/package_run_dependencies/two_camera\n'}
+[1.061732] (two_camera) StdoutLine: {'line': b'-- Up-to-date: /home/lamps-xe11/ros2_ws/install/two_camera/share/ament_index/resource_index/parent_prefix_path/two_camera\n'}
+[1.062416] (two_camera) StdoutLine: {'line': b'-- Up-to-date: /home/lamps-xe11/ros2_ws/install/two_camera/share/two_camera/environment/ament_prefix_path.sh\n'}
+[1.063152] (two_camera) StdoutLine: {'line': b'-- Up-to-date: /home/lamps-xe11/ros2_ws/install/two_camera/share/two_camera/environment/ament_prefix_path.dsv\n'}
+[1.063825] (two_camera) StdoutLine: {'line': b'-- Up-to-date: /home/lamps-xe11/ros2_ws/install/two_camera/share/two_camera/environment/path.sh\n'}
+[1.064555] (two_camera) StdoutLine: {'line': b'-- Up-to-date: /home/lamps-xe11/ros2_ws/install/two_camera/share/two_camera/environment/path.dsv\n'}
+[1.065217] (two_camera) StdoutLine: {'line': b'-- Up-to-date: /home/lamps-xe11/ros2_ws/install/two_camera/share/two_camera/local_setup.bash\n'}
+[1.065787] (two_camera) StdoutLine: {'line': b'-- Up-to-date: /home/lamps-xe11/ros2_ws/install/two_camera/share/two_camera/local_setup.sh\n'}
+[1.066524] (two_camera) StdoutLine: {'line': b'-- Up-to-date: /home/lamps-xe11/ros2_ws/install/two_camera/share/two_camera/local_setup.zsh\n'}
+[1.067245] (two_camera) StdoutLine: {'line': b'-- Up-to-date: /home/lamps-xe11/ros2_ws/install/two_camera/share/two_camera/local_setup.dsv\n'}
+[1.067981] (two_camera) StdoutLine: {'line': b'-- Installing: /home/lamps-xe11/ros2_ws/install/two_camera/share/two_camera/package.dsv\n'}
+[1.069757] (two_camera) StdoutLine: {'line': b'-- Up-to-date: /home/lamps-xe11/ros2_ws/install/two_camera/share/ament_index/resource_index/packages/two_camera\n'}
+[1.070479] (two_camera) StdoutLine: {'line': b'-- Up-to-date: /home/lamps-xe11/ros2_ws/install/two_camera/share/two_camera/cmake/two_cameraConfig.cmake\n'}
+[1.071130] (two_camera) StdoutLine: {'line': b'-- Up-to-date: /home/lamps-xe11/ros2_ws/install/two_camera/share/two_camera/cmake/two_cameraConfig-version.cmake\n'}
+[1.071728] (two_camera) StdoutLine: {'line': b'-- Up-to-date: /home/lamps-xe11/ros2_ws/install/two_camera/share/two_camera/package.xml\n'}
+[1.078127] (two_camera) CommandEnded: {'returncode': 0}
+[1.106517] (-) TimerEvent: {}
+[1.207477] (-) TimerEvent: {}
+[1.308336] (-) TimerEvent: {}
+[1.376156] (two_camera) JobEnded: {'identifier': 'two_camera', 'rc': 0}
+[1.408530] (-) TimerEvent: {}
+[1.509271] (-) TimerEvent: {}
+[1.610013] (-) TimerEvent: {}
+[1.710786] (-) TimerEvent: {}
+[1.811877] (-) TimerEvent: {}
+[1.912990] (-) TimerEvent: {}
+[2.013773] (-) TimerEvent: {}
+[2.114588] (-) TimerEvent: {}
+[2.215374] (-) TimerEvent: {}
+[2.316109] (-) TimerEvent: {}
+[2.416842] (-) TimerEvent: {}
+[2.517638] (-) TimerEvent: {}
+[2.618506] (-) TimerEvent: {}
+[2.719442] (-) TimerEvent: {}
+[2.820555] (-) TimerEvent: {}
+[2.921517] (-) TimerEvent: {}
+[3.022683] (-) TimerEvent: {}
+[3.123460] (-) TimerEvent: {}
+[3.224255] (-) TimerEvent: {}
+[3.325151] (-) TimerEvent: {}
+[3.426033] (-) TimerEvent: {}
+[3.526980] (-) TimerEvent: {}
+[3.627893] (-) TimerEvent: {}
+[3.728810] (-) TimerEvent: {}
+[3.829657] (-) TimerEvent: {}
+[3.930512] (-) TimerEvent: {}
+[4.031405] (-) TimerEvent: {}
+[4.132377] (-) TimerEvent: {}
+[4.233232] (-) TimerEvent: {}
+[4.334131] (-) TimerEvent: {}
+[4.435083] (-) TimerEvent: {}
+[4.535918] (-) TimerEvent: {}
+[4.636830] (-) TimerEvent: {}
+[4.737721] (-) TimerEvent: {}
+[4.838573] (-) TimerEvent: {}
+[4.939454] (-) TimerEvent: {}
+[5.040367] (-) TimerEvent: {}
+[5.141236] (-) TimerEvent: {}
+[5.242118] (-) TimerEvent: {}
+[5.343101] (-) TimerEvent: {}
+[5.444117] (-) TimerEvent: {}
+[5.544966] (-) TimerEvent: {}
+[5.645893] (-) TimerEvent: {}
+[5.746790] (-) TimerEvent: {}
+[5.847682] (-) TimerEvent: {}
+[5.948590] (-) TimerEvent: {}
+[6.049495] (-) TimerEvent: {}
+[6.150413] (-) TimerEvent: {}
+[6.251295] (-) TimerEvent: {}
+[6.352260] (-) TimerEvent: {}
+[6.453232] (-) TimerEvent: {}
+[6.554096] (-) TimerEvent: {}
+[6.654970] (-) TimerEvent: {}
+[6.755845] (-) TimerEvent: {}
+[6.856772] (-) TimerEvent: {}
+[6.957645] (-) TimerEvent: {}
+[7.058502] (-) TimerEvent: {}
+[7.159393] (-) TimerEvent: {}
+[7.260331] (-) TimerEvent: {}
+[7.361223] (-) TimerEvent: {}
+[7.462091] (-) TimerEvent: {}
+[7.562954] (-) TimerEvent: {}
+[7.663917] (-) TimerEvent: {}
+[7.764972] (-) TimerEvent: {}
+[7.865845] (-) TimerEvent: {}
+[7.966711] (-) TimerEvent: {}
+[8.067627] (-) TimerEvent: {}
+[8.168582] (-) TimerEvent: {}
+[8.269467] (-) TimerEvent: {}
+[8.373639] (-) TimerEvent: {}
+[8.474466] (-) TimerEvent: {}
+[8.575336] (-) TimerEvent: {}
+[8.676255] (-) TimerEvent: {}
+[8.777393] (-) TimerEvent: {}
+[8.878329] (-) TimerEvent: {}
+[8.979293] (-) TimerEvent: {}
+[9.080229] (-) TimerEvent: {}
+[9.181169] (-) TimerEvent: {}
+[9.282106] (-) TimerEvent: {}
+[9.383208] (-) TimerEvent: {}
+[9.484508] (-) TimerEvent: {}
+[9.585569] (-) TimerEvent: {}
+[9.686528] (-) TimerEvent: {}
+[9.787533] (-) TimerEvent: {}
+[9.888501] (-) TimerEvent: {}
+[9.989433] (-) TimerEvent: {}
+[10.090332] (-) TimerEvent: {}
+[10.191252] (-) TimerEvent: {}
+[10.292124] (-) TimerEvent: {}
+[10.393022] (-) TimerEvent: {}
+[10.493984] (-) TimerEvent: {}
+[10.594860] (-) TimerEvent: {}
+[10.695803] (-) TimerEvent: {}
+[10.796738] (-) TimerEvent: {}
+[10.897685] (-) TimerEvent: {}
+[10.998708] (-) TimerEvent: {}
+[11.099717] (-) TimerEvent: {}
+[11.200696] (-) TimerEvent: {}
+[11.301642] (-) TimerEvent: {}
+[11.402569] (-) TimerEvent: {}
+[11.503459] (-) TimerEvent: {}
+[11.604432] (-) TimerEvent: {}
+[11.705369] (-) TimerEvent: {}
+[11.806341] (-) TimerEvent: {}
+[11.907298] (-) TimerEvent: {}
+[12.008259] (-) TimerEvent: {}
+[12.109198] (-) TimerEvent: {}
+[12.210128] (-) TimerEvent: {}
+[12.311093] (-) TimerEvent: {}
+[12.412071] (-) TimerEvent: {}
+[12.512934] (-) TimerEvent: {}
+[12.613882] (-) TimerEvent: {}
+[12.714843] (-) TimerEvent: {}
+[12.815815] (-) TimerEvent: {}
+[12.916813] (-) TimerEvent: {}
+[13.017681] (-) TimerEvent: {}
+[13.118611] (-) TimerEvent: {}
+[13.219457] (-) TimerEvent: {}
+[13.320341] (-) TimerEvent: {}
+[13.421254] (-) TimerEvent: {}
+[13.522220] (-) TimerEvent: {}
+[13.623150] (-) TimerEvent: {}
+[13.724085] (-) TimerEvent: {}
+[13.824933] (-) TimerEvent: {}
+[13.925819] (-) TimerEvent: {}
+[14.026718] (-) TimerEvent: {}
+[14.127571] (-) TimerEvent: {}
+[14.228541] (-) TimerEvent: {}
+[14.329427] (-) TimerEvent: {}
+[14.430458] (-) TimerEvent: {}
+[14.531415] (-) TimerEvent: {}
+[14.632366] (-) TimerEvent: {}
+[14.733276] (-) TimerEvent: {}
+[14.834185] (-) TimerEvent: {}
+[14.935068] (-) TimerEvent: {}
+[15.036118] (-) TimerEvent: {}
+[15.137072] (-) TimerEvent: {}
+[15.237982] (-) TimerEvent: {}
+[15.338922] (-) TimerEvent: {}
+[15.439781] (-) TimerEvent: {}
+[15.540709] (-) TimerEvent: {}
+[15.641641] (-) TimerEvent: {}
+[15.742524] (-) TimerEvent: {}
+[15.843437] (-) TimerEvent: {}
+[15.944326] (-) TimerEvent: {}
+[16.045275] (-) TimerEvent: {}
+[16.146237] (-) TimerEvent: {}
+[16.247360] (-) TimerEvent: {}
+[16.348310] (-) TimerEvent: {}
+[16.449291] (-) TimerEvent: {}
+[16.550205] (-) TimerEvent: {}
+[16.651079] (-) TimerEvent: {}
+[16.752145] (-) TimerEvent: {}
+[16.853011] (-) TimerEvent: {}
+[16.953914] (-) TimerEvent: {}
+[17.054796] (-) TimerEvent: {}
+[17.155809] (-) TimerEvent: {}
+[17.256718] (-) TimerEvent: {}
+[17.357619] (-) TimerEvent: {}
+[17.458495] (-) TimerEvent: {}
+[17.559371] (-) TimerEvent: {}
+[17.660255] (-) TimerEvent: {}
+[17.761206] (-) TimerEvent: {}
+[17.862077] (-) TimerEvent: {}
+[17.962990] (-) TimerEvent: {}
+[18.063877] (-) TimerEvent: {}
+[18.164752] (-) TimerEvent: {}
+[18.265720] (-) TimerEvent: {}
+[18.366670] (-) TimerEvent: {}
+[18.467537] (-) TimerEvent: {}
+[18.568495] (-) TimerEvent: {}
+[18.669433] (-) TimerEvent: {}
+[18.770422] (-) TimerEvent: {}
+[18.871396] (-) TimerEvent: {}
+[18.972318] (-) TimerEvent: {}
+[19.073172] (-) TimerEvent: {}
+[19.174021] (-) TimerEvent: {}
+[19.274899] (-) TimerEvent: {}
+[19.375769] (-) TimerEvent: {}
+[19.476687] (-) TimerEvent: {}
+[19.577664] (-) TimerEvent: {}
+[19.678590] (-) TimerEvent: {}
+[19.779532] (-) TimerEvent: {}
+[19.880888] (-) TimerEvent: {}
+[19.981825] (-) TimerEvent: {}
+[20.083151] (-) TimerEvent: {}
+[20.184165] (-) TimerEvent: {}
+[20.285089] (-) TimerEvent: {}
+[20.386020] (-) TimerEvent: {}
+[20.487041] (-) TimerEvent: {}
+[20.588148] (-) TimerEvent: {}
+[20.688932] (sub_synch) StderrLine: {'line': b'In file included from \x1b[01m\x1b[K/opt/ros/humble/include/message_filters/message_filters/synchronizer.h:47\x1b[m\x1b[K,\n'}
+[20.691860] (-) TimerEvent: {}
+[20.692367] (sub_synch) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/lamps-xe11/ros2_ws/src/sub_synch/src/time_synch.cpp:4\x1b[m\x1b[K:\n'}
+[20.692949] (sub_synch) StderrLine: {'line': b'/opt/ros/humble/include/message_filters/message_filters/signal9.h: In instantiation of \xe2\x80\x98\x1b[01m\x1b[Kmessage_filters::Connection message_filters::Signal9<M0, M1, M2, M3, M4, M5, M6, M7, M8>::addCallback(const std::function<void(P0, P1, P2, P3, P4, P5, P6, P7, P8)>&) [with P0 = const std::shared_ptr<const sensor_msgs::msg::Image_<std::allocator<void> > >&; P1 = const std::shared_ptr<const sensor_msgs::msg::Image_<std::allocator<void> > >&; P2 = const std::shared_ptr<const sensor_msgs::msg::Image_<std::allocator<void> > >&; P3 = const std::shared_ptr<const sensor_msgs::msg::Image_<std::allocator<void> > >&; P4 = const std::shared_ptr<const message_filters::NullType>&; P5 = const std::shared_ptr<const message_filters::NullType>&; P6 = const std::shared_ptr<const message_filters::NullType>&; P7 = const std::shared_ptr<const message_filters::NullType>&; P8 = const std::shared_ptr<const message_filters::NullType>&; M0 = sensor_msgs::msg::Image_<std::allocator<void> >; M1 = sensor_msgs::msg::Image_<std::allocator<void> >; M2 = sensor_msgs::msg::Image_<std::allocator<void> >; M3 = message_filters::NullType; M4 = message_filters::NullType; M5 = message_filters::NullType; M6 = message_filters::NullType; M7 = message_filters::NullType; M8 = message_filters::NullType]\x1b[m\x1b[K\xe2\x80\x99:\n'}
+[20.693432] (sub_synch) StderrLine: {'line': b'\x1b[01m\x1b[K/opt/ros/humble/include/message_filters/message_filters/signal9.h:242:23:\x1b[m\x1b[K   required from \xe2\x80\x98\x1b[01m\x1b[Kmessage_filters::Connection message_filters::Signal9<M0, M1, M2, M3, M4, M5, M6, M7, M8>::addCallback(void (T::*)(P0, P1, P2, P3), T*) [with T = CameraSyncNode; P0 = const std::shared_ptr<const sensor_msgs::msg::Image_<std::allocator<void> > >&; P1 = const std::shared_ptr<const sensor_msgs::msg::Image_<std::allocator<void> > >&; P2 = const std::shared_ptr<const sensor_msgs::msg::Image_<std::allocator<void> > >&; P3 = const std::shared_ptr<const sensor_msgs::msg::Image_<std::allocator<void> > >&; M0 = sensor_msgs::msg::Image_<std::allocator<void> >; M1 = sensor_msgs::msg::Image_<std::allocator<void> >; M2 = sensor_msgs::msg::Image_<std::allocator<void> >; M3 = message_filters::NullType; M4 = message_filters::NullType; M5 = message_filters::NullType; M6 = message_filters::NullType; M7 = message_filters::NullType; M8 = message_filters::NullType]\x1b[m\x1b[K\xe2\x80\x99\n'}
+[20.693850] (sub_synch) StderrLine: {'line': b'\x1b[01m\x1b[K/opt/ros/humble/include/message_filters/message_filters/synchronizer.h:304:31:\x1b[m\x1b[K   required from \xe2\x80\x98\x1b[01m\x1b[Kmessage_filters::Connection message_filters::Synchronizer<Policy>::registerCallback(const C&, T*) [with C = void (CameraSyncNode::*)(const std::shared_ptr<const sensor_msgs::msg::Image_<std::allocator<void> > >&, const std::shared_ptr<const sensor_msgs::msg::Image_<std::allocator<void> > >&, const std::shared_ptr<const sensor_msgs::msg::Image_<std::allocator<void> > >&, const std::shared_ptr<const sensor_msgs::msg::Image_<std::allocator<void> > >&); T = CameraSyncNode; Policy = message_filters::sync_policies::ApproximateTime<sensor_msgs::msg::Image_<std::allocator<void> >, sensor_msgs::msg::Image_<std::allocator<void> >, sensor_msgs::msg::Image_<std::allocator<void> > >]\x1b[m\x1b[K\xe2\x80\x99\n'}
+[20.694252] (sub_synch) StderrLine: {'line': b'\x1b[01m\x1b[K/home/lamps-xe11/ros2_ws/src/sub_synch/src/time_synch.cpp:62:32:\x1b[m\x1b[K   required from here\n'}
+[20.694688] (sub_synch) StderrLine: {'line': b'\x1b[01m\x1b[K/opt/ros/humble/include/message_filters/message_filters/signal9.h:175:26:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[Kno matching function for call to \xe2\x80\x98\x1b[01m\x1b[Kstd::shared_ptr<message_filters::CallbackHelper9<sensor_msgs::msg::Image_<std::allocator<void> >, sensor_msgs::msg::Image_<std::allocator<void> >, sensor_msgs::msg::Image_<std::allocator<void> >, message_filters::NullType, message_filters::NullType, message_filters::NullType, message_filters::NullType, message_filters::NullType, message_filters::NullType> >::shared_ptr(message_filters::CallbackHelper9T<const std::shared_ptr<const sensor_msgs::msg::Image_<std::allocator<void> > >&, const std::shared_ptr<const sensor_msgs::msg::Image_<std::allocator<void> > >&, const std::shared_ptr<const sensor_msgs::msg::Image_<std::allocator<void> > >&, const std::shared_ptr<const sensor_msgs::msg::Image_<std::allocator<void> > >&, const std::shared_ptr<const message_filters::NullType>&, const std::shared_ptr<const message_filters::NullType>&, const std::shared_ptr<const message_filters::NullType>&, const std::shared_ptr<const message_filters::NullType>&, const std::shared_ptr<const message_filters::NullType>&>*&)\x1b[m\x1b[K\xe2\x80\x99\n'}
+[20.695285] (sub_synch) StderrLine: {'line': b'  175 |     callbacks_.push_back(\x1b[01;31m\x1b[KCallbackHelper9Ptr(helper)\x1b[m\x1b[K);\n'}
+[20.695675] (sub_synch) StderrLine: {'line': b'      |                          \x1b[01;31m\x1b[K^~~~~~~~~~~~~~~~~~~~~~~~~~\x1b[m\x1b[K\n'}
+[20.696115] (sub_synch) StderrLine: {'line': b'In file included from \x1b[01m\x1b[K/usr/include/c++/11/memory:77\x1b[m\x1b[K,\n'}
+[20.696484] (sub_synch) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/humble/include/rclcpp/rclcpp/rclcpp.hpp:153\x1b[m\x1b[K,\n'}
+[20.696816] (sub_synch) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/lamps-xe11/ros2_ws/src/sub_synch/src/time_synch.cpp:1\x1b[m\x1b[K:\n'}
+[20.697136] (sub_synch) StderrLine: {'line': b'\x1b[01m\x1b[K/usr/include/c++/11/bits/shared_ptr.h:408:9:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[Kcandidate: \xe2\x80\x98\x1b[01m\x1b[Ktemplate<class _Alloc, class ... _Args> std::shared_ptr<_Tp>::shared_ptr(std::_Sp_alloc_shared_tag<_Tp>, _Args&& ...) [with _Alloc = _Alloc; _Args = {_Args ...}; _Tp = message_filters::CallbackHelper9<sensor_msgs::msg::Image_<std::allocator<void> >, sensor_msgs::msg::Image_<std::allocator<void> >, sensor_msgs::msg::Image_<std::allocator<void> >, message_filters::NullType, message_filters::NullType, message_filters::NullType, message_filters::NullType, message_filters::NullType, message_filters::NullType>]\x1b[m\x1b[K\xe2\x80\x99\n'}
+[20.697474] (sub_synch) StderrLine: {'line': b'  408 |         \x1b[01;36m\x1b[Kshared_ptr\x1b[m\x1b[K(_Sp_alloc_shared_tag<_Alloc> __tag, _Args&&... __args)\n'}
+[20.697819] (sub_synch) StderrLine: {'line': b'      |         \x1b[01;36m\x1b[K^~~~~~~~~~\x1b[m\x1b[K\n'}
+[20.698315] (sub_synch) StderrLine: {'line': b'\x1b[01m\x1b[K/usr/include/c++/11/bits/shared_ptr.h:408:9:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[K  template argument deduction/substitution failed:\n'}
+[20.698784] (sub_synch) StderrLine: {'line': b'In file included from \x1b[01m\x1b[K/opt/ros/humble/include/message_filters/message_filters/synchronizer.h:47\x1b[m\x1b[K,\n'}
+[20.699409] (sub_synch) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/lamps-xe11/ros2_ws/src/sub_synch/src/time_synch.cpp:4\x1b[m\x1b[K:\n'}
+[20.701946] (sub_synch) StderrLine: {'line': b'\x1b[01m\x1b[K/opt/ros/humble/include/message_filters/message_filters/signal9.h:175:26:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[K  mismatched types \xe2\x80\x98\x1b[01m\x1b[Kstd::_Sp_alloc_shared_tag<_Tp>\x1b[m\x1b[K\xe2\x80\x99 and \xe2\x80\x98\x1b[01m\x1b[Kmessage_filters::CallbackHelper9T<const std::shared_ptr<const sensor_msgs::msg::Image_<std::allocator<void> > >&, const std::shared_ptr<const sensor_msgs::msg::Image_<std::allocator<void> > >&, const std::shared_ptr<const sensor_msgs::msg::Image_<std::allocator<void> > >&, const std::shared_ptr<const sensor_msgs::msg::Image_<std::allocator<void> > >&, const std::shared_ptr<const message_filters::NullType>&, const std::shared_ptr<const message_filters::NullType>&, const std::shared_ptr<const message_filters::NullType>&, const std::shared_ptr<const message_filters::NullType>&, const std::shared_ptr<const message_filters::NullType>&>*\x1b[m\x1b[K\xe2\x80\x99\n'}
+[20.703471] (sub_synch) StderrLine: {'line': b'  175 |     callbacks_.push_back(\x1b[01;36m\x1b[KCallbackHelper9Ptr(helper)\x1b[m\x1b[K);\n'}
+[20.704056] (sub_synch) StderrLine: {'line': b'      |                          \x1b[01;36m\x1b[K^~~~~~~~~~~~~~~~~~~~~~~~~~\x1b[m\x1b[K\n'}
+[20.704663] (sub_synch) StderrLine: {'line': b'In file included from \x1b[01m\x1b[K/usr/include/c++/11/memory:77\x1b[m\x1b[K,\n'}
+[20.705157] (sub_synch) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/humble/include/rclcpp/rclcpp/rclcpp.hpp:153\x1b[m\x1b[K,\n'}
+[20.705707] (sub_synch) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/lamps-xe11/ros2_ws/src/sub_synch/src/time_synch.cpp:1\x1b[m\x1b[K:\n'}
+[20.706208] (sub_synch) StderrLine: {'line': b'\x1b[01m\x1b[K/usr/include/c++/11/bits/shared_ptr.h:340:9:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[Kcandidate: \xe2\x80\x98\x1b[01m\x1b[Ktemplate<class _Yp, class _Del, class> std::shared_ptr<_Tp>::shared_ptr(std::unique_ptr<_Up, _Ep>&&) [with _Yp = _Yp; _Del = _Del; <template-parameter-2-3> = <template-parameter-1-3>; _Tp = message_filters::CallbackHelper9<sensor_msgs::msg::Image_<std::allocator<void> >, sensor_msgs::msg::Image_<std::allocator<void> >, sensor_msgs::msg::Image_<std::allocator<void> >, message_filters::NullType, message_filters::NullType, message_filters::NullType, message_filters::NullType, message_filters::NullType, message_filters::NullType>]\x1b[m\x1b[K\xe2\x80\x99\n'}
+[20.706791] (sub_synch) StderrLine: {'line': b'  340 |         \x1b[01;36m\x1b[Kshared_ptr\x1b[m\x1b[K(unique_ptr<_Yp, _Del>&& __r)\n'}
+[20.707277] (sub_synch) StderrLine: {'line': b'      |         \x1b[01;36m\x1b[K^~~~~~~~~~\x1b[m\x1b[K\n'}
+[20.707731] (sub_synch) StderrLine: {'line': b'\x1b[01m\x1b[K/usr/include/c++/11/bits/shared_ptr.h:340:9:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[K  template argument deduction/substitution failed:\n'}
+[20.708396] (sub_synch) StderrLine: {'line': b'In file included from \x1b[01m\x1b[K/opt/ros/humble/include/message_filters/message_filters/synchronizer.h:47\x1b[m\x1b[K,\n'}
+[20.708904] (sub_synch) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/lamps-xe11/ros2_ws/src/sub_synch/src/time_synch.cpp:4\x1b[m\x1b[K:\n'}
+[20.709381] (sub_synch) StderrLine: {'line': b'\x1b[01m\x1b[K/opt/ros/humble/include/message_filters/message_filters/signal9.h:175:26:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[K  mismatched types \xe2\x80\x98\x1b[01m\x1b[Kstd::unique_ptr<_Tp, _Dp>\x1b[m\x1b[K\xe2\x80\x99 and \xe2\x80\x98\x1b[01m\x1b[Kmessage_filters::CallbackHelper9T<const std::shared_ptr<const sensor_msgs::msg::Image_<std::allocator<void> > >&, const std::shared_ptr<const sensor_msgs::msg::Image_<std::allocator<void> > >&, const std::shared_ptr<const sensor_msgs::msg::Image_<std::allocator<void> > >&, const std::shared_ptr<const sensor_msgs::msg::Image_<std::allocator<void> > >&, const std::shared_ptr<const message_filters::NullType>&, const std::shared_ptr<const message_filters::NullType>&, const std::shared_ptr<const message_filters::NullType>&, const std::shared_ptr<const message_filters::NullType>&, const std::shared_ptr<const message_filters::NullType>&>*\x1b[m\x1b[K\xe2\x80\x99\n'}
+[20.709863] (sub_synch) StderrLine: {'line': b'  175 |     callbacks_.push_back(\x1b[01;36m\x1b[KCallbackHelper9Ptr(helper)\x1b[m\x1b[K);\n'}
+[20.710310] (sub_synch) StderrLine: {'line': b'      |                          \x1b[01;36m\x1b[K^~~~~~~~~~~~~~~~~~~~~~~~~~\x1b[m\x1b[K\n'}
+[20.710751] (sub_synch) StderrLine: {'line': b'In file included from \x1b[01m\x1b[K/usr/include/c++/11/memory:77\x1b[m\x1b[K,\n'}
+[20.711165] (sub_synch) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/humble/include/rclcpp/rclcpp/rclcpp.hpp:153\x1b[m\x1b[K,\n'}
+[20.711616] (sub_synch) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/lamps-xe11/ros2_ws/src/sub_synch/src/time_synch.cpp:1\x1b[m\x1b[K:\n'}
+[20.712226] (sub_synch) StderrLine: {'line': b'\x1b[01m\x1b[K/usr/include/c++/11/bits/shared_ptr.h:332:9:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[Kcandidate: \xe2\x80\x98\x1b[01m\x1b[Ktemplate<class _Yp, class> std::shared_ptr<_Tp>::shared_ptr(std::auto_ptr<_Up>&&) [with _Yp = _Tp1; <template-parameter-2-2> = <template-parameter-1-2>; _Tp = message_filters::CallbackHelper9<sensor_msgs::msg::Image_<std::allocator<void> >, sensor_msgs::msg::Image_<std::allocator<void> >, sensor_msgs::msg::Image_<std::allocator<void> >, message_filters::NullType, message_filters::NullType, message_filters::NullType, message_filters::NullType, message_filters::NullType, message_filters::NullType>]\x1b[m\x1b[K\xe2\x80\x99\n'}
+[20.712748] (sub_synch) StderrLine: {'line': b'  332 |         \x1b[01;36m\x1b[Kshared_ptr\x1b[m\x1b[K(auto_ptr<_Yp>&& __r);\n'}
+[20.713194] (sub_synch) StderrLine: {'line': b'      |         \x1b[01;36m\x1b[K^~~~~~~~~~\x1b[m\x1b[K\n'}
+[20.713621] (sub_synch) StderrLine: {'line': b'\x1b[01m\x1b[K/usr/include/c++/11/bits/shared_ptr.h:332:9:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[K  template argument deduction/substitution failed:\n'}
+[20.714113] (sub_synch) StderrLine: {'line': b'In file included from \x1b[01m\x1b[K/opt/ros/humble/include/message_filters/message_filters/synchronizer.h:47\x1b[m\x1b[K,\n'}
+[20.714691] (sub_synch) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/lamps-xe11/ros2_ws/src/sub_synch/src/time_synch.cpp:4\x1b[m\x1b[K:\n'}
+[20.715397] (sub_synch) StderrLine: {'line': b'\x1b[01m\x1b[K/opt/ros/humble/include/message_filters/message_filters/signal9.h:175:26:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[K  mismatched types \xe2\x80\x98\x1b[01m\x1b[Kstd::auto_ptr<_Up>\x1b[m\x1b[K\xe2\x80\x99 and \xe2\x80\x98\x1b[01m\x1b[Kmessage_filters::CallbackHelper9T<const std::shared_ptr<const sensor_msgs::msg::Image_<std::allocator<void> > >&, const std::shared_ptr<const sensor_msgs::msg::Image_<std::allocator<void> > >&, const std::shared_ptr<const sensor_msgs::msg::Image_<std::allocator<void> > >&, const std::shared_ptr<const sensor_msgs::msg::Image_<std::allocator<void> > >&, const std::shared_ptr<const message_filters::NullType>&, const std::shared_ptr<const message_filters::NullType>&, const std::shared_ptr<const message_filters::NullType>&, const std::shared_ptr<const message_filters::NullType>&, const std::shared_ptr<const message_filters::NullType>&>*\x1b[m\x1b[K\xe2\x80\x99\n'}
+[20.716072] (sub_synch) StderrLine: {'line': b'  175 |     callbacks_.push_back(\x1b[01;36m\x1b[KCallbackHelper9Ptr(helper)\x1b[m\x1b[K);\n'}
+[20.716593] (sub_synch) StderrLine: {'line': b'      |                          \x1b[01;36m\x1b[K^~~~~~~~~~~~~~~~~~~~~~~~~~\x1b[m\x1b[K\n'}
+[20.717237] (sub_synch) StderrLine: {'line': b'In file included from \x1b[01m\x1b[K/usr/include/c++/11/memory:77\x1b[m\x1b[K,\n'}
+[20.717848] (sub_synch) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/humble/include/rclcpp/rclcpp/rclcpp.hpp:153\x1b[m\x1b[K,\n'}
+[20.718308] (sub_synch) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/lamps-xe11/ros2_ws/src/sub_synch/src/time_synch.cpp:1\x1b[m\x1b[K:\n'}
+[20.718741] (sub_synch) StderrLine: {'line': b'\x1b[01m\x1b[K/usr/include/c++/11/bits/shared_ptr.h:325:18:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[Kcandidate: \xe2\x80\x98\x1b[01m\x1b[Ktemplate<class _Yp, class> std::shared_ptr<_Tp>::shared_ptr(const std::weak_ptr<_Yp>&) [with _Yp = _Yp; <template-parameter-2-2> = <template-parameter-1-2>; _Tp = message_filters::CallbackHelper9<sensor_msgs::msg::Image_<std::allocator<void> >, sensor_msgs::msg::Image_<std::allocator<void> >, sensor_msgs::msg::Image_<std::allocator<void> >, message_filters::NullType, message_filters::NullType, message_filters::NullType, message_filters::NullType, message_filters::NullType, message_filters::NullType>]\x1b[m\x1b[K\xe2\x80\x99\n'}
+[20.719343] (sub_synch) StderrLine: {'line': b'  325 |         explicit \x1b[01;36m\x1b[Kshared_ptr\x1b[m\x1b[K(const weak_ptr<_Yp>& __r)\n'}
+[20.719784] (sub_synch) StderrLine: {'line': b'      |                  \x1b[01;36m\x1b[K^~~~~~~~~~\x1b[m\x1b[K\n'}
+[20.720338] (sub_synch) StderrLine: {'line': b'\x1b[01m\x1b[K/usr/include/c++/11/bits/shared_ptr.h:325:18:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[K  template argument deduction/substitution failed:\n'}
+[20.720824] (sub_synch) StderrLine: {'line': b'In file included from \x1b[01m\x1b[K/opt/ros/humble/include/message_filters/message_filters/synchronizer.h:47\x1b[m\x1b[K,\n'}
+[20.721310] (sub_synch) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/lamps-xe11/ros2_ws/src/sub_synch/src/time_synch.cpp:4\x1b[m\x1b[K:\n'}
+[20.721775] (sub_synch) StderrLine: {'line': b'\x1b[01m\x1b[K/opt/ros/humble/include/message_filters/message_filters/signal9.h:175:26:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[K  mismatched types \xe2\x80\x98\x1b[01m\x1b[Kconst std::weak_ptr<_Tp>\x1b[m\x1b[K\xe2\x80\x99 and \xe2\x80\x98\x1b[01m\x1b[Kmessage_filters::CallbackHelper9T<const std::shared_ptr<const sensor_msgs::msg::Image_<std::allocator<void> > >&, const std::shared_ptr<const sensor_msgs::msg::Image_<std::allocator<void> > >&, const std::shared_ptr<const sensor_msgs::msg::Image_<std::allocator<void> > >&, const std::shared_ptr<const sensor_msgs::msg::Image_<std::allocator<void> > >&, const std::shared_ptr<const message_filters::NullType>&, const std::shared_ptr<const message_filters::NullType>&, const std::shared_ptr<const message_filters::NullType>&, const std::shared_ptr<const message_filters::NullType>&, const std::shared_ptr<const message_filters::NullType>&>*\x1b[m\x1b[K\xe2\x80\x99\n'}
+[20.722353] (sub_synch) StderrLine: {'line': b'  175 |     callbacks_.push_back(\x1b[01;36m\x1b[KCallbackHelper9Ptr(helper)\x1b[m\x1b[K);\n'}
+[20.722809] (sub_synch) StderrLine: {'line': b'      |                          \x1b[01;36m\x1b[K^~~~~~~~~~~~~~~~~~~~~~~~~~\x1b[m\x1b[K\n'}
+[20.723274] (sub_synch) StderrLine: {'line': b'In file included from \x1b[01m\x1b[K/usr/include/c++/11/memory:77\x1b[m\x1b[K,\n'}
+[20.723737] (sub_synch) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/humble/include/rclcpp/rclcpp/rclcpp.hpp:153\x1b[m\x1b[K,\n'}
+[20.724402] (sub_synch) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/lamps-xe11/ros2_ws/src/sub_synch/src/time_synch.cpp:1\x1b[m\x1b[K:\n'}
+[20.724898] (sub_synch) StderrLine: {'line': b'\x1b[01m\x1b[K/usr/include/c++/11/bits/shared_ptr.h:313:9:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[Kcandidate: \xe2\x80\x98\x1b[01m\x1b[Ktemplate<class _Yp, class> std::shared_ptr<_Tp>::shared_ptr(std::shared_ptr<_Yp>&&) [with _Yp = _Yp; <template-parameter-2-2> = <template-parameter-1-2>; _Tp = message_filters::CallbackHelper9<sensor_msgs::msg::Image_<std::allocator<void> >, sensor_msgs::msg::Image_<std::allocator<void> >, sensor_msgs::msg::Image_<std::allocator<void> >, message_filters::NullType, message_filters::NullType, message_filters::NullType, message_filters::NullType, message_filters::NullType, message_filters::NullType>]\x1b[m\x1b[K\xe2\x80\x99\n'}
+[20.725432] (sub_synch) StderrLine: {'line': b'  313 |         \x1b[01;36m\x1b[Kshared_ptr\x1b[m\x1b[K(shared_ptr<_Yp>&& __r) noexcept\n'}
+[20.726045] (sub_synch) StderrLine: {'line': b'      |         \x1b[01;36m\x1b[K^~~~~~~~~~\x1b[m\x1b[K\n'}
+[20.726607] (sub_synch) StderrLine: {'line': b'\x1b[01m\x1b[K/usr/include/c++/11/bits/shared_ptr.h:313:9:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[K  template argument deduction/substitution failed:\n'}
+[20.727123] (sub_synch) StderrLine: {'line': b'In file included from \x1b[01m\x1b[K/opt/ros/humble/include/message_filters/message_filters/synchronizer.h:47\x1b[m\x1b[K,\n'}
+[20.727734] (sub_synch) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/lamps-xe11/ros2_ws/src/sub_synch/src/time_synch.cpp:4\x1b[m\x1b[K:\n'}
+[20.728353] (sub_synch) StderrLine: {'line': b'\x1b[01m\x1b[K/opt/ros/humble/include/message_filters/message_filters/signal9.h:175:26:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[K  mismatched types \xe2\x80\x98\x1b[01m\x1b[Kstd::shared_ptr<_Tp>\x1b[m\x1b[K\xe2\x80\x99 and \xe2\x80\x98\x1b[01m\x1b[Kmessage_filters::CallbackHelper9T<const std::shared_ptr<const sensor_msgs::msg::Image_<std::allocator<void> > >&, const std::shared_ptr<const sensor_msgs::msg::Image_<std::allocator<void> > >&, const std::shared_ptr<const sensor_msgs::msg::Image_<std::allocator<void> > >&, const std::shared_ptr<const sensor_msgs::msg::Image_<std::allocator<void> > >&, const std::shared_ptr<const message_filters::NullType>&, const std::shared_ptr<const message_filters::NullType>&, const std::shared_ptr<const message_filters::NullType>&, const std::shared_ptr<const message_filters::NullType>&, const std::shared_ptr<const message_filters::NullType>&>*\x1b[m\x1b[K\xe2\x80\x99\n'}
+[20.729025] (sub_synch) StderrLine: {'line': b'  175 |     callbacks_.push_back(\x1b[01;36m\x1b[KCallbackHelper9Ptr(helper)\x1b[m\x1b[K);\n'}
+[20.729557] (sub_synch) StderrLine: {'line': b'      |                          \x1b[01;36m\x1b[K^~~~~~~~~~~~~~~~~~~~~~~~~~\x1b[m\x1b[K\n'}
+[20.730090] (sub_synch) StderrLine: {'line': b'In file included from \x1b[01m\x1b[K/usr/include/c++/11/memory:77\x1b[m\x1b[K,\n'}
+[20.730624] (sub_synch) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/humble/include/rclcpp/rclcpp/rclcpp.hpp:153\x1b[m\x1b[K,\n'}
+[20.731100] (sub_synch) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/lamps-xe11/ros2_ws/src/sub_synch/src/time_synch.cpp:1\x1b[m\x1b[K:\n'}
+[20.731574] (sub_synch) StderrLine: {'line': b'\x1b[01m\x1b[K/usr/include/c++/11/bits/shared_ptr.h:296:9:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[Kcandidate: \xe2\x80\x98\x1b[01m\x1b[Ktemplate<class _Yp, class> std::shared_ptr<_Tp>::shared_ptr(const std::shared_ptr<_Yp>&) [with _Yp = _Yp; <template-parameter-2-2> = <template-parameter-1-2>; _Tp = message_filters::CallbackHelper9<sensor_msgs::msg::Image_<std::allocator<void> >, sensor_msgs::msg::Image_<std::allocator<void> >, sensor_msgs::msg::Image_<std::allocator<void> >, message_filters::NullType, message_filters::NullType, message_filters::NullType, message_filters::NullType, message_filters::NullType, message_filters::NullType>]\x1b[m\x1b[K\xe2\x80\x99\n'}
+[20.732149] (sub_synch) StderrLine: {'line': b'  296 |         \x1b[01;36m\x1b[Kshared_ptr\x1b[m\x1b[K(const shared_ptr<_Yp>& __r) noexcept\n'}
+[20.732661] (sub_synch) StderrLine: {'line': b'      |         \x1b[01;36m\x1b[K^~~~~~~~~~\x1b[m\x1b[K\n'}
+[20.733122] (sub_synch) StderrLine: {'line': b'\x1b[01m\x1b[K/usr/include/c++/11/bits/shared_ptr.h:296:9:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[K  template argument deduction/substitution failed:\n'}
+[20.733597] (sub_synch) StderrLine: {'line': b'In file included from \x1b[01m\x1b[K/opt/ros/humble/include/message_filters/message_filters/synchronizer.h:47\x1b[m\x1b[K,\n'}
+[20.734141] (sub_synch) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/lamps-xe11/ros2_ws/src/sub_synch/src/time_synch.cpp:4\x1b[m\x1b[K:\n'}
+[20.734596] (sub_synch) StderrLine: {'line': b'\x1b[01m\x1b[K/opt/ros/humble/include/message_filters/message_filters/signal9.h:175:26:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[K  mismatched types \xe2\x80\x98\x1b[01m\x1b[Kconst std::shared_ptr<_Tp>\x1b[m\x1b[K\xe2\x80\x99 and \xe2\x80\x98\x1b[01m\x1b[Kmessage_filters::CallbackHelper9T<const std::shared_ptr<const sensor_msgs::msg::Image_<std::allocator<void> > >&, const std::shared_ptr<const sensor_msgs::msg::Image_<std::allocator<void> > >&, const std::shared_ptr<const sensor_msgs::msg::Image_<std::allocator<void> > >&, const std::shared_ptr<const sensor_msgs::msg::Image_<std::allocator<void> > >&, const std::shared_ptr<const message_filters::NullType>&, const std::shared_ptr<const message_filters::NullType>&, const std::shared_ptr<const message_filters::NullType>&, const std::shared_ptr<const message_filters::NullType>&, const std::shared_ptr<const message_filters::NullType>&>*\x1b[m\x1b[K\xe2\x80\x99\n'}
+[20.735088] (sub_synch) StderrLine: {'line': b'  175 |     callbacks_.push_back(\x1b[01;36m\x1b[KCallbackHelper9Ptr(helper)\x1b[m\x1b[K);\n'}
+[20.735534] (sub_synch) StderrLine: {'line': b'      |                          \x1b[01;36m\x1b[K^~~~~~~~~~~~~~~~~~~~~~~~~~\x1b[m\x1b[K\n'}
+[20.736098] (sub_synch) StderrLine: {'line': b'In file included from \x1b[01m\x1b[K/usr/include/c++/11/memory:77\x1b[m\x1b[K,\n'}
+[20.736618] (sub_synch) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/humble/include/rclcpp/rclcpp/rclcpp.hpp:153\x1b[m\x1b[K,\n'}
+[20.737084] (sub_synch) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/lamps-xe11/ros2_ws/src/sub_synch/src/time_synch.cpp:1\x1b[m\x1b[K:\n'}
+[20.737530] (sub_synch) StderrLine: {'line': b'\x1b[01m\x1b[K/usr/include/c++/11/bits/shared_ptr.h:257:9:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[Kcandidate: \xe2\x80\x98\x1b[01m\x1b[Ktemplate<class _Yp> std::shared_ptr<_Tp>::shared_ptr(const std::shared_ptr<_Yp>&, std::shared_ptr<_Tp>::element_type*) [with _Yp = _Yp; _Tp = message_filters::CallbackHelper9<sensor_msgs::msg::Image_<std::allocator<void> >, sensor_msgs::msg::Image_<std::allocator<void> >, sensor_msgs::msg::Image_<std::allocator<void> >, message_filters::NullType, message_filters::NullType, message_filters::NullType, message_filters::NullType, message_filters::NullType, message_filters::NullType>]\x1b[m\x1b[K\xe2\x80\x99\n'}
+[20.738137] (sub_synch) StderrLine: {'line': b'  257 |         \x1b[01;36m\x1b[Kshared_ptr\x1b[m\x1b[K(const shared_ptr<_Yp>& __r, element_type* __p) noexcept\n'}
+[20.738626] (sub_synch) StderrLine: {'line': b'      |         \x1b[01;36m\x1b[K^~~~~~~~~~\x1b[m\x1b[K\n'}
+[20.739167] (sub_synch) StderrLine: {'line': b'\x1b[01m\x1b[K/usr/include/c++/11/bits/shared_ptr.h:257:9:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[K  template argument deduction/substitution failed:\n'}
+[20.739663] (sub_synch) StderrLine: {'line': b'In file included from \x1b[01m\x1b[K/opt/ros/humble/include/message_filters/message_filters/synchronizer.h:47\x1b[m\x1b[K,\n'}
+[20.740187] (sub_synch) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/lamps-xe11/ros2_ws/src/sub_synch/src/time_synch.cpp:4\x1b[m\x1b[K:\n'}
+[20.740684] (sub_synch) StderrLine: {'line': b'\x1b[01m\x1b[K/opt/ros/humble/include/message_filters/message_filters/signal9.h:175:26:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[K  mismatched types \xe2\x80\x98\x1b[01m\x1b[Kconst std::shared_ptr<_Tp>\x1b[m\x1b[K\xe2\x80\x99 and \xe2\x80\x98\x1b[01m\x1b[Kmessage_filters::CallbackHelper9T<const std::shared_ptr<const sensor_msgs::msg::Image_<std::allocator<void> > >&, const std::shared_ptr<const sensor_msgs::msg::Image_<std::allocator<void> > >&, const std::shared_ptr<const sensor_msgs::msg::Image_<std::allocator<void> > >&, const std::shared_ptr<const sensor_msgs::msg::Image_<std::allocator<void> > >&, const std::shared_ptr<const message_filters::NullType>&, const std::shared_ptr<const message_filters::NullType>&, const std::shared_ptr<const message_filters::NullType>&, const std::shared_ptr<const message_filters::NullType>&, const std::shared_ptr<const message_filters::NullType>&>*\x1b[m\x1b[K\xe2\x80\x99\n'}
+[20.741265] (sub_synch) StderrLine: {'line': b'  175 |     callbacks_.push_back(\x1b[01;36m\x1b[KCallbackHelper9Ptr(helper)\x1b[m\x1b[K);\n'}
+[20.741750] (sub_synch) StderrLine: {'line': b'      |                          \x1b[01;36m\x1b[K^~~~~~~~~~~~~~~~~~~~~~~~~~\x1b[m\x1b[K\n'}
+[20.742234] (sub_synch) StderrLine: {'line': b'In file included from \x1b[01m\x1b[K/usr/include/c++/11/memory:77\x1b[m\x1b[K,\n'}
+[20.742742] (sub_synch) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/humble/include/rclcpp/rclcpp/rclcpp.hpp:153\x1b[m\x1b[K,\n'}
+[20.743353] (sub_synch) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/lamps-xe11/ros2_ws/src/sub_synch/src/time_synch.cpp:1\x1b[m\x1b[K:\n'}
+[20.743885] (sub_synch) StderrLine: {'line': b'\x1b[01m\x1b[K/usr/include/c++/11/bits/shared_ptr.h:233:9:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[Kcandidate: \xe2\x80\x98\x1b[01m\x1b[Ktemplate<class _Deleter, class _Alloc> std::shared_ptr<_Tp>::shared_ptr(std::nullptr_t, _Deleter, _Alloc) [with _Deleter = _Deleter; _Alloc = _Alloc; _Tp = message_filters::CallbackHelper9<sensor_msgs::msg::Image_<std::allocator<void> >, sensor_msgs::msg::Image_<std::allocator<void> >, sensor_msgs::msg::Image_<std::allocator<void> >, message_filters::NullType, message_filters::NullType, message_filters::NullType, message_filters::NullType, message_filters::NullType, message_filters::NullType>]\x1b[m\x1b[K\xe2\x80\x99\n'}
+[20.744468] (sub_synch) StderrLine: {'line': b'  233 |         \x1b[01;36m\x1b[Kshared_ptr\x1b[m\x1b[K(nullptr_t __p, _Deleter __d, _Alloc __a)\n'}
+[20.744982] (sub_synch) StderrLine: {'line': b'      |         \x1b[01;36m\x1b[K^~~~~~~~~~\x1b[m\x1b[K\n'}
+[20.745447] (sub_synch) StderrLine: {'line': b'\x1b[01m\x1b[K/usr/include/c++/11/bits/shared_ptr.h:233:9:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[K  template argument deduction/substitution failed:\n'}
+[20.745910] (sub_synch) StderrLine: {'line': b'In file included from \x1b[01m\x1b[K/opt/ros/humble/include/message_filters/message_filters/synchronizer.h:47\x1b[m\x1b[K,\n'}
+[20.746429] (sub_synch) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/lamps-xe11/ros2_ws/src/sub_synch/src/time_synch.cpp:4\x1b[m\x1b[K:\n'}
+[20.746977] (sub_synch) StderrLine: {'line': b'\x1b[01m\x1b[K/opt/ros/humble/include/message_filters/message_filters/signal9.h:175:26:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[K  candidate expects 3 arguments, 1 provided\n'}
+[20.748607] (sub_synch) StderrLine: {'line': b'  175 |     callbacks_.push_back(\x1b[01;36m\x1b[KCallbackHelper9Ptr(helper)\x1b[m\x1b[K);\n'}
+[20.749275] (sub_synch) StderrLine: {'line': b'      |                          \x1b[01;36m\x1b[K^~~~~~~~~~~~~~~~~~~~~~~~~~\x1b[m\x1b[K\n'}
+[20.750038] (sub_synch) StderrLine: {'line': b'In file included from \x1b[01m\x1b[K/usr/include/c++/11/memory:77\x1b[m\x1b[K,\n'}
+[20.750706] (sub_synch) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/humble/include/rclcpp/rclcpp/rclcpp.hpp:153\x1b[m\x1b[K,\n'}
+[20.751215] (sub_synch) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/lamps-xe11/ros2_ws/src/sub_synch/src/time_synch.cpp:1\x1b[m\x1b[K:\n'}
+[20.751670] (sub_synch) StderrLine: {'line': b'\x1b[01m\x1b[K/usr/include/c++/11/bits/shared_ptr.h:214:9:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[Kcandidate: \xe2\x80\x98\x1b[01m\x1b[Ktemplate<class _Yp, class _Deleter, class _Alloc, class> std::shared_ptr<_Tp>::shared_ptr(_Yp*, _Deleter, _Alloc) [with _Yp = _Yp; _Deleter = _Deleter; _Alloc = _Alloc; <template-parameter-2-4> = <template-parameter-1-4>; _Tp = message_filters::CallbackHelper9<sensor_msgs::msg::Image_<std::allocator<void> >, sensor_msgs::msg::Image_<std::allocator<void> >, sensor_msgs::msg::Image_<std::allocator<void> >, message_filters::NullType, message_filters::NullType, message_filters::NullType, message_filters::NullType, message_filters::NullType, message_filters::NullType>]\x1b[m\x1b[K\xe2\x80\x99\n'}
+[20.752307] (sub_synch) StderrLine: {'line': b'  214 |         \x1b[01;36m\x1b[Kshared_ptr\x1b[m\x1b[K(_Yp* __p, _Deleter __d, _Alloc __a)\n'}
+[20.752835] (sub_synch) StderrLine: {'line': b'      |         \x1b[01;36m\x1b[K^~~~~~~~~~\x1b[m\x1b[K\n'}
+[20.753303] (sub_synch) StderrLine: {'line': b'\x1b[01m\x1b[K/usr/include/c++/11/bits/shared_ptr.h:214:9:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[K  template argument deduction/substitution failed:\n'}
+[20.753814] (sub_synch) StderrLine: {'line': b'In file included from \x1b[01m\x1b[K/opt/ros/humble/include/message_filters/message_filters/synchronizer.h:47\x1b[m\x1b[K,\n'}
+[20.754245] (sub_synch) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/lamps-xe11/ros2_ws/src/sub_synch/src/time_synch.cpp:4\x1b[m\x1b[K:\n'}
+[20.754670] (sub_synch) StderrLine: {'line': b'\x1b[01m\x1b[K/opt/ros/humble/include/message_filters/message_filters/signal9.h:175:26:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[K  candidate expects 3 arguments, 1 provided\n'}
+[20.755127] (sub_synch) StderrLine: {'line': b'  175 |     callbacks_.push_back(\x1b[01;36m\x1b[KCallbackHelper9Ptr(helper)\x1b[m\x1b[K);\n'}
+[20.755581] (sub_synch) StderrLine: {'line': b'      |                          \x1b[01;36m\x1b[K^~~~~~~~~~~~~~~~~~~~~~~~~~\x1b[m\x1b[K\n'}
+[20.756066] (sub_synch) StderrLine: {'line': b'In file included from \x1b[01m\x1b[K/usr/include/c++/11/memory:77\x1b[m\x1b[K,\n'}
+[20.756592] (sub_synch) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/humble/include/rclcpp/rclcpp/rclcpp.hpp:153\x1b[m\x1b[K,\n'}
+[20.757132] (sub_synch) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/lamps-xe11/ros2_ws/src/sub_synch/src/time_synch.cpp:1\x1b[m\x1b[K:\n'}
+[20.757580] (sub_synch) StderrLine: {'line': b'\x1b[01m\x1b[K/usr/include/c++/11/bits/shared_ptr.h:194:9:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[Kcandidate: \xe2\x80\x98\x1b[01m\x1b[Ktemplate<class _Deleter> std::shared_ptr<_Tp>::shared_ptr(std::nullptr_t, _Deleter) [with _Deleter = _Deleter; _Tp = message_filters::CallbackHelper9<sensor_msgs::msg::Image_<std::allocator<void> >, sensor_msgs::msg::Image_<std::allocator<void> >, sensor_msgs::msg::Image_<std::allocator<void> >, message_filters::NullType, message_filters::NullType, message_filters::NullType, message_filters::NullType, message_filters::NullType, message_filters::NullType>]\x1b[m\x1b[K\xe2\x80\x99\n'}
+[20.758127] (sub_synch) StderrLine: {'line': b'  194 |         \x1b[01;36m\x1b[Kshared_ptr\x1b[m\x1b[K(nullptr_t __p, _Deleter __d)\n'}
+[20.758617] (sub_synch) StderrLine: {'line': b'      |         \x1b[01;36m\x1b[K^~~~~~~~~~\x1b[m\x1b[K\n'}
+[20.759046] (sub_synch) StderrLine: {'line': b'\x1b[01m\x1b[K/usr/include/c++/11/bits/shared_ptr.h:194:9:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[K  template argument deduction/substitution failed:\n'}
+[20.759487] (sub_synch) StderrLine: {'line': b'In file included from \x1b[01m\x1b[K/opt/ros/humble/include/message_filters/message_filters/synchronizer.h:47\x1b[m\x1b[K,\n'}
+[20.759978] (sub_synch) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/lamps-xe11/ros2_ws/src/sub_synch/src/time_synch.cpp:4\x1b[m\x1b[K:\n'}
+[20.760527] (sub_synch) StderrLine: {'line': b'\x1b[01m\x1b[K/opt/ros/humble/include/message_filters/message_filters/signal9.h:175:26:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[K  candidate expects 2 arguments, 1 provided\n'}
+[20.761016] (sub_synch) StderrLine: {'line': b'  175 |     callbacks_.push_back(\x1b[01;36m\x1b[KCallbackHelper9Ptr(helper)\x1b[m\x1b[K);\n'}
+[20.761475] (sub_synch) StderrLine: {'line': b'      |                          \x1b[01;36m\x1b[K^~~~~~~~~~~~~~~~~~~~~~~~~~\x1b[m\x1b[K\n'}
+[20.761948] (sub_synch) StderrLine: {'line': b'In file included from \x1b[01m\x1b[K/usr/include/c++/11/memory:77\x1b[m\x1b[K,\n'}
+[20.762413] (sub_synch) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/humble/include/rclcpp/rclcpp/rclcpp.hpp:153\x1b[m\x1b[K,\n'}
+[20.762849] (sub_synch) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/lamps-xe11/ros2_ws/src/sub_synch/src/time_synch.cpp:1\x1b[m\x1b[K:\n'}
+[20.763328] (sub_synch) StderrLine: {'line': b'\x1b[01m\x1b[K/usr/include/c++/11/bits/shared_ptr.h:177:9:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[Kcandidate: \xe2\x80\x98\x1b[01m\x1b[Ktemplate<class _Yp, class _Deleter, class> std::shared_ptr<_Tp>::shared_ptr(_Yp*, _Deleter) [with _Yp = _Yp; _Deleter = _Deleter; <template-parameter-2-3> = <template-parameter-1-3>; _Tp = message_filters::CallbackHelper9<sensor_msgs::msg::Image_<std::allocator<void> >, sensor_msgs::msg::Image_<std::allocator<void> >, sensor_msgs::msg::Image_<std::allocator<void> >, message_filters::NullType, message_filters::NullType, message_filters::NullType, message_filters::NullType, message_filters::NullType, message_filters::NullType>]\x1b[m\x1b[K\xe2\x80\x99\n'}
+[20.763799] (sub_synch) StderrLine: {'line': b'  177 |         \x1b[01;36m\x1b[Kshared_ptr\x1b[m\x1b[K(_Yp* __p, _Deleter __d)\n'}
+[20.764346] (sub_synch) StderrLine: {'line': b'      |         \x1b[01;36m\x1b[K^~~~~~~~~~\x1b[m\x1b[K\n'}
+[20.764865] (sub_synch) StderrLine: {'line': b'\x1b[01m\x1b[K/usr/include/c++/11/bits/shared_ptr.h:177:9:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[K  template argument deduction/substitution failed:\n'}
+[20.765355] (sub_synch) StderrLine: {'line': b'In file included from \x1b[01m\x1b[K/opt/ros/humble/include/message_filters/message_filters/synchronizer.h:47\x1b[m\x1b[K,\n'}
+[20.765808] (sub_synch) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/lamps-xe11/ros2_ws/src/sub_synch/src/time_synch.cpp:4\x1b[m\x1b[K:\n'}
+[20.766258] (sub_synch) StderrLine: {'line': b'\x1b[01m\x1b[K/opt/ros/humble/include/message_filters/message_filters/signal9.h:175:26:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[K  candidate expects 2 arguments, 1 provided\n'}
+[20.766704] (sub_synch) StderrLine: {'line': b'  175 |     callbacks_.push_back(\x1b[01;36m\x1b[KCallbackHelper9Ptr(helper)\x1b[m\x1b[K);\n'}
+[20.767181] (sub_synch) StderrLine: {'line': b'      |                          \x1b[01;36m\x1b[K^~~~~~~~~~~~~~~~~~~~~~~~~~\x1b[m\x1b[K\n'}
+[20.767848] (sub_synch) StderrLine: {'line': b'In file included from \x1b[01m\x1b[K/usr/include/c++/11/memory:77\x1b[m\x1b[K,\n'}
+[20.768761] (sub_synch) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/humble/include/rclcpp/rclcpp/rclcpp.hpp:153\x1b[m\x1b[K,\n'}
+[20.769339] (sub_synch) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/lamps-xe11/ros2_ws/src/sub_synch/src/time_synch.cpp:1\x1b[m\x1b[K:\n'}
+[20.769821] (sub_synch) StderrLine: {'line': b'\x1b[01m\x1b[K/usr/include/c++/11/bits/shared_ptr.h:160:9:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[Kcandidate: \xe2\x80\x98\x1b[01m\x1b[Ktemplate<class _Yp, class> std::shared_ptr<_Tp>::shared_ptr(_Yp*) [with _Yp = _Yp; <template-parameter-2-2> = <template-parameter-1-2>; _Tp = message_filters::CallbackHelper9<sensor_msgs::msg::Image_<std::allocator<void> >, sensor_msgs::msg::Image_<std::allocator<void> >, sensor_msgs::msg::Image_<std::allocator<void> >, message_filters::NullType, message_filters::NullType, message_filters::NullType, message_filters::NullType, message_filters::NullType, message_filters::NullType>]\x1b[m\x1b[K\xe2\x80\x99\n'}
+[20.770553] (sub_synch) StderrLine: {'line': b'  160 |         \x1b[01;36m\x1b[Kshared_ptr\x1b[m\x1b[K(_Yp* __p) : __shared_ptr<_Tp>(__p) { }\n'}
+[20.771247] (sub_synch) StderrLine: {'line': b'      |         \x1b[01;36m\x1b[K^~~~~~~~~~\x1b[m\x1b[K\n'}
+[20.771795] (sub_synch) StderrLine: {'line': b'\x1b[01m\x1b[K/usr/include/c++/11/bits/shared_ptr.h:160:9:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[K  template argument deduction/substitution failed:\n'}
+[20.772360] (sub_synch) StderrLine: {'line': b'/usr/include/c++/11/bits/shared_ptr.h: In substitution of \xe2\x80\x98\x1b[01m\x1b[Ktemplate<class _Tp> template<class ... _Args> using _Constructible = typename std::enable_if<std::is_constructible<std::__shared_ptr<_Tp>, _Args ...>::value>::type [with _Args = {message_filters::CallbackHelper9T<const std::shared_ptr<const sensor_msgs::msg::Image_<std::allocator<void> > >&, const std::shared_ptr<const sensor_msgs::msg::Image_<std::allocator<void> > >&, const std::shared_ptr<const sensor_msgs::msg::Image_<std::allocator<void> > >&, const std::shared_ptr<const sensor_msgs::msg::Image_<std::allocator<void> > >&, const std::shared_ptr<const message_filters::NullType>&, const std::shared_ptr<const message_filters::NullType>&, const std::shared_ptr<const message_filters::NullType>&, const std::shared_ptr<const message_filters::NullType>&, const std::shared_ptr<const message_filters::NullType>&>*}; _Tp = message_filters::CallbackHelper9<sensor_msgs::msg::Image_<std::allocator<void> >, sensor_msgs::msg::Image_<std::allocator<void> >, sensor_msgs::msg::Image_<std::allocator<void> >, message_filters::NullType, message_filters::NullType, message_filters::NullType, message_filters::NullType, message_filters::NullType, message_filters::NullType>]\x1b[m\x1b[K\xe2\x80\x99:\n'}
+[20.772889] (sub_synch) StderrLine: {'line': b'\x1b[01m\x1b[K/usr/include/c++/11/bits/shared_ptr.h:158:30:\x1b[m\x1b[K   required from \xe2\x80\x98\x1b[01m\x1b[Kmessage_filters::Connection message_filters::Signal9<M0, M1, M2, M3, M4, M5, M6, M7, M8>::addCallback(const std::function<void(P0, P1, P2, P3, P4, P5, P6, P7, P8)>&) [with P0 = const std::shared_ptr<const sensor_msgs::msg::Image_<std::allocator<void> > >&; P1 = const std::shared_ptr<const sensor_msgs::msg::Image_<std::allocator<void> > >&; P2 = const std::shared_ptr<const sensor_msgs::msg::Image_<std::allocator<void> > >&; P3 = const std::shared_ptr<const sensor_msgs::msg::Image_<std::allocator<void> > >&; P4 = const std::shared_ptr<const message_filters::NullType>&; P5 = const std::shared_ptr<const message_filters::NullType>&; P6 = const std::shared_ptr<const message_filters::NullType>&; P7 = const std::shared_ptr<const message_filters::NullType>&; P8 = const std::shared_ptr<const message_filters::NullType>&; M0 = sensor_msgs::msg::Image_<std::allocator<void> >; M1 = sensor_msgs::msg::Image_<std::allocator<void> >; M2 = sensor_msgs::msg::Image_<std::allocator<void> >; M3 = message_filters::NullType; M4 = message_filters::NullType; M5 = message_filters::NullType; M6 = message_filters::NullType; M7 = message_filters::NullType; M8 = message_filters::NullType]\x1b[m\x1b[K\xe2\x80\x99\n'}
+[20.773553] (sub_synch) StderrLine: {'line': b'\x1b[01m\x1b[K/opt/ros/humble/include/message_filters/message_filters/signal9.h:242:23:\x1b[m\x1b[K   required from \xe2\x80\x98\x1b[01m\x1b[Kmessage_filters::Connection message_filters::Signal9<M0, M1, M2, M3, M4, M5, M6, M7, M8>::addCallback(void (T::*)(P0, P1, P2, P3), T*) [with T = CameraSyncNode; P0 = const std::shared_ptr<const sensor_msgs::msg::Image_<std::allocator<void> > >&; P1 = const std::shared_ptr<const sensor_msgs::msg::Image_<std::allocator<void> > >&; P2 = const std::shared_ptr<const sensor_msgs::msg::Image_<std::allocator<void> > >&; P3 = const std::shared_ptr<const sensor_msgs::msg::Image_<std::allocator<void> > >&; M0 = sensor_msgs::msg::Image_<std::allocator<void> >; M1 = sensor_msgs::msg::Image_<std::allocator<void> >; M2 = sensor_msgs::msg::Image_<std::allocator<void> >; M3 = message_filters::NullType; M4 = message_filters::NullType; M5 = message_filters::NullType; M6 = message_filters::NullType; M7 = message_filters::NullType; M8 = message_filters::NullType]\x1b[m\x1b[K\xe2\x80\x99\n'}
+[20.774049] (sub_synch) StderrLine: {'line': b'\x1b[01m\x1b[K/opt/ros/humble/include/message_filters/message_filters/synchronizer.h:304:31:\x1b[m\x1b[K   required from \xe2\x80\x98\x1b[01m\x1b[Kmessage_filters::Connection message_filters::Synchronizer<Policy>::registerCallback(const C&, T*) [with C = void (CameraSyncNode::*)(const std::shared_ptr<const sensor_msgs::msg::Image_<std::allocator<void> > >&, const std::shared_ptr<const sensor_msgs::msg::Image_<std::allocator<void> > >&, const std::shared_ptr<const sensor_msgs::msg::Image_<std::allocator<void> > >&, const std::shared_ptr<const sensor_msgs::msg::Image_<std::allocator<void> > >&); T = CameraSyncNode; Policy = message_filters::sync_policies::ApproximateTime<sensor_msgs::msg::Image_<std::allocator<void> >, sensor_msgs::msg::Image_<std::allocator<void> >, sensor_msgs::msg::Image_<std::allocator<void> > >]\x1b[m\x1b[K\xe2\x80\x99\n'}
+[20.774630] (sub_synch) StderrLine: {'line': b'\x1b[01m\x1b[K/home/lamps-xe11/ros2_ws/src/sub_synch/src/time_synch.cpp:62:32:\x1b[m\x1b[K   required from here\n'}
+[20.775107] (sub_synch) StderrLine: {'line': b'\x1b[01m\x1b[K/usr/include/c++/11/bits/shared_ptr.h:125:15:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[Kno type named \xe2\x80\x98\x1b[01m\x1b[Ktype\x1b[m\x1b[K\xe2\x80\x99 in \xe2\x80\x98\x1b[01m\x1b[Kstruct std::enable_if<false, void>\x1b[m\x1b[K\xe2\x80\x99\n'}
+[20.775563] (sub_synch) StderrLine: {'line': b'  125 |         using \x1b[01;31m\x1b[K_Constructible\x1b[m\x1b[K = typename enable_if<\n'}
+[20.776065] (sub_synch) StderrLine: {'line': b'      |               \x1b[01;31m\x1b[K^~~~~~~~~~~~~~\x1b[m\x1b[K\n'}
+[20.776539] (sub_synch) StderrLine: {'line': b'/opt/ros/humble/include/message_filters/message_filters/signal9.h: In instantiation of \xe2\x80\x98\x1b[01m\x1b[Kmessage_filters::Connection message_filters::Signal9<M0, M1, M2, M3, M4, M5, M6, M7, M8>::addCallback(const std::function<void(P0, P1, P2, P3, P4, P5, P6, P7, P8)>&) [with P0 = const std::shared_ptr<const sensor_msgs::msg::Image_<std::allocator<void> > >&; P1 = const std::shared_ptr<const sensor_msgs::msg::Image_<std::allocator<void> > >&; P2 = const std::shared_ptr<const sensor_msgs::msg::Image_<std::allocator<void> > >&; P3 = const std::shared_ptr<const sensor_msgs::msg::Image_<std::allocator<void> > >&; P4 = const std::shared_ptr<const message_filters::NullType>&; P5 = const std::shared_ptr<const message_filters::NullType>&; P6 = const std::shared_ptr<const message_filters::NullType>&; P7 = const std::shared_ptr<const message_filters::NullType>&; P8 = const std::shared_ptr<const message_filters::NullType>&; M0 = sensor_msgs::msg::Image_<std::allocator<void> >; M1 = sensor_msgs::msg::Image_<std::allocator<void> >; M2 = sensor_msgs::msg::Image_<std::allocator<void> >; M3 = message_filters::NullType; M4 = message_filters::NullType; M5 = message_filters::NullType; M6 = message_filters::NullType; M7 = message_filters::NullType; M8 = message_filters::NullType]\x1b[m\x1b[K\xe2\x80\x99:\n'}
+[20.777150] (sub_synch) StderrLine: {'line': b'\x1b[01m\x1b[K/opt/ros/humble/include/message_filters/message_filters/signal9.h:242:23:\x1b[m\x1b[K   required from \xe2\x80\x98\x1b[01m\x1b[Kmessage_filters::Connection message_filters::Signal9<M0, M1, M2, M3, M4, M5, M6, M7, M8>::addCallback(void (T::*)(P0, P1, P2, P3), T*) [with T = CameraSyncNode; P0 = const std::shared_ptr<const sensor_msgs::msg::Image_<std::allocator<void> > >&; P1 = const std::shared_ptr<const sensor_msgs::msg::Image_<std::allocator<void> > >&; P2 = const std::shared_ptr<const sensor_msgs::msg::Image_<std::allocator<void> > >&; P3 = const std::shared_ptr<const sensor_msgs::msg::Image_<std::allocator<void> > >&; M0 = sensor_msgs::msg::Image_<std::allocator<void> >; M1 = sensor_msgs::msg::Image_<std::allocator<void> >; M2 = sensor_msgs::msg::Image_<std::allocator<void> >; M3 = message_filters::NullType; M4 = message_filters::NullType; M5 = message_filters::NullType; M6 = message_filters::NullType; M7 = message_filters::NullType; M8 = message_filters::NullType]\x1b[m\x1b[K\xe2\x80\x99\n'}
+[20.777708] (sub_synch) StderrLine: {'line': b'\x1b[01m\x1b[K/opt/ros/humble/include/message_filters/message_filters/synchronizer.h:304:31:\x1b[m\x1b[K   required from \xe2\x80\x98\x1b[01m\x1b[Kmessage_filters::Connection message_filters::Synchronizer<Policy>::registerCallback(const C&, T*) [with C = void (CameraSyncNode::*)(const std::shared_ptr<const sensor_msgs::msg::Image_<std::allocator<void> > >&, const std::shared_ptr<const sensor_msgs::msg::Image_<std::allocator<void> > >&, const std::shared_ptr<const sensor_msgs::msg::Image_<std::allocator<void> > >&, const std::shared_ptr<const sensor_msgs::msg::Image_<std::allocator<void> > >&); T = CameraSyncNode; Policy = message_filters::sync_policies::ApproximateTime<sensor_msgs::msg::Image_<std::allocator<void> >, sensor_msgs::msg::Image_<std::allocator<void> >, sensor_msgs::msg::Image_<std::allocator<void> > >]\x1b[m\x1b[K\xe2\x80\x99\n'}
+[20.778274] (sub_synch) StderrLine: {'line': b'\x1b[01m\x1b[K/home/lamps-xe11/ros2_ws/src/sub_synch/src/time_synch.cpp:62:32:\x1b[m\x1b[K   required from here\n'}
+[20.778736] (sub_synch) StderrLine: {'line': b'\x1b[01m\x1b[K/usr/include/c++/11/bits/shared_ptr.h:417:7:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[Kcandidate: \xe2\x80\x98\x1b[01m\x1b[Kstd::shared_ptr<_Tp>::shared_ptr(const std::weak_ptr<_Tp>&, std::nothrow_t) [with _Tp = message_filters::CallbackHelper9<sensor_msgs::msg::Image_<std::allocator<void> >, sensor_msgs::msg::Image_<std::allocator<void> >, sensor_msgs::msg::Image_<std::allocator<void> >, message_filters::NullType, message_filters::NullType, message_filters::NullType, message_filters::NullType, message_filters::NullType, message_filters::NullType>]\x1b[m\x1b[K\xe2\x80\x99\n'}
+[20.779336] (sub_synch) StderrLine: {'line': b'  417 |       \x1b[01;36m\x1b[Kshared_ptr\x1b[m\x1b[K(const weak_ptr<_Tp>& __r, std::nothrow_t) noexcept\n'}
+[20.779817] (sub_synch) StderrLine: {'line': b'      |       \x1b[01;36m\x1b[K^~~~~~~~~~\x1b[m\x1b[K\n'}
+[20.780371] (sub_synch) StderrLine: {'line': b'\x1b[01m\x1b[K/usr/include/c++/11/bits/shared_ptr.h:417:7:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[K  candidate expects 2 arguments, 1 provided\n'}
+[20.780850] (sub_synch) StderrLine: {'line': b'\x1b[01m\x1b[K/usr/include/c++/11/bits/shared_ptr.h:357:17:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[Kcandidate: \xe2\x80\x98\x1b[01m\x1b[Kconstexpr std::shared_ptr<_Tp>::shared_ptr(std::nullptr_t) [with _Tp = message_filters::CallbackHelper9<sensor_msgs::msg::Image_<std::allocator<void> >, sensor_msgs::msg::Image_<std::allocator<void> >, sensor_msgs::msg::Image_<std::allocator<void> >, message_filters::NullType, message_filters::NullType, message_filters::NullType, message_filters::NullType, message_filters::NullType, message_filters::NullType>; std::nullptr_t = std::nullptr_t]\x1b[m\x1b[K\xe2\x80\x99\n'}
+[20.781340] (sub_synch) StderrLine: {'line': b'  357 |       constexpr \x1b[01;36m\x1b[Kshared_ptr\x1b[m\x1b[K(nullptr_t) noexcept : shared_ptr() { }\n'}
+[20.781890] (sub_synch) StderrLine: {'line': b'      |                 \x1b[01;36m\x1b[K^~~~~~~~~~\x1b[m\x1b[K\n'}
+[20.782364] (sub_synch) StderrLine: {'line': b'\x1b[01m\x1b[K/usr/include/c++/11/bits/shared_ptr.h:357:28:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[K  no known conversion for argument 1 from \xe2\x80\x98\x1b[01m\x1b[Kmessage_filters::CallbackHelper9T<const std::shared_ptr<const sensor_msgs::msg::Image_<std::allocator<void> > >&, const std::shared_ptr<const sensor_msgs::msg::Image_<std::allocator<void> > >&, const std::shared_ptr<const sensor_msgs::msg::Image_<std::allocator<void> > >&, const std::shared_ptr<const sensor_msgs::msg::Image_<std::allocator<void> > >&, const std::shared_ptr<const message_filters::NullType>&, const std::shared_ptr<const message_filters::NullType>&, const std::shared_ptr<const message_filters::NullType>&, const std::shared_ptr<const message_filters::NullType>&, const std::shared_ptr<const message_filters::NullType>&>*\x1b[m\x1b[K\xe2\x80\x99 to \xe2\x80\x98\x1b[01m\x1b[Kstd::nullptr_t\x1b[m\x1b[K\xe2\x80\x99\n'}
+[20.783012] (sub_synch) StderrLine: {'line': b'  357 |       constexpr shared_ptr(\x1b[01;36m\x1b[Knullptr_t\x1b[m\x1b[K) noexcept : shared_ptr() { }\n'}
+[20.783508] (sub_synch) StderrLine: {'line': b'      |                            \x1b[01;36m\x1b[K^~~~~~~~~\x1b[m\x1b[K\n'}
+[20.784019] (sub_synch) StderrLine: {'line': b'\x1b[01m\x1b[K/usr/include/c++/11/bits/shared_ptr.h:304:7:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[Kcandidate: \xe2\x80\x98\x1b[01m\x1b[Kstd::shared_ptr<_Tp>::shared_ptr(std::shared_ptr<_Tp>&&) [with _Tp = message_filters::CallbackHelper9<sensor_msgs::msg::Image_<std::allocator<void> >, sensor_msgs::msg::Image_<std::allocator<void> >, sensor_msgs::msg::Image_<std::allocator<void> >, message_filters::NullType, message_filters::NullType, message_filters::NullType, message_filters::NullType, message_filters::NullType, message_filters::NullType>]\x1b[m\x1b[K\xe2\x80\x99\n'}
+[20.784568] (sub_synch) StderrLine: {'line': b'  304 |       \x1b[01;36m\x1b[Kshared_ptr\x1b[m\x1b[K(shared_ptr&& __r) noexcept\n'}
+[20.785012] (sub_synch) StderrLine: {'line': b'      |       \x1b[01;36m\x1b[K^~~~~~~~~~\x1b[m\x1b[K\n'}
+[20.785461] (sub_synch) StderrLine: {'line': b'\x1b[01m\x1b[K/usr/include/c++/11/bits/shared_ptr.h:304:31:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[K  no known conversion for argument 1 from \xe2\x80\x98\x1b[01m\x1b[Kmessage_filters::CallbackHelper9T<const std::shared_ptr<const sensor_msgs::msg::Image_<std::allocator<void> > >&, const std::shared_ptr<const sensor_msgs::msg::Image_<std::allocator<void> > >&, const std::shared_ptr<const sensor_msgs::msg::Image_<std::allocator<void> > >&, const std::shared_ptr<const sensor_msgs::msg::Image_<std::allocator<void> > >&, const std::shared_ptr<const message_filters::NullType>&, const std::shared_ptr<const message_filters::NullType>&, const std::shared_ptr<const message_filters::NullType>&, const std::shared_ptr<const message_filters::NullType>&, const std::shared_ptr<const message_filters::NullType>&>*\x1b[m\x1b[K\xe2\x80\x99 to \xe2\x80\x98\x1b[01m\x1b[Kstd::shared_ptr<message_filters::CallbackHelper9<sensor_msgs::msg::Image_<std::allocator<void> >, sensor_msgs::msg::Image_<std::allocator<void> >, sensor_msgs::msg::Image_<std::allocator<void> >, message_filters::NullType, message_filters::NullType, message_filters::NullType, message_filters::NullType, message_filters::NullType, message_filters::NullType> >&&\x1b[m\x1b[K\xe2\x80\x99\n'}
+[20.786057] (sub_synch) StderrLine: {'line': b'  304 |       shared_ptr(\x1b[01;36m\x1b[Kshared_ptr&& __r\x1b[m\x1b[K) noexcept\n'}
+[20.786534] (sub_synch) StderrLine: {'line': b'      |                  \x1b[01;36m\x1b[K~~~~~~~~~~~~~^~~\x1b[m\x1b[K\n'}
+[20.787002] (sub_synch) StderrLine: {'line': b'\x1b[01m\x1b[K/usr/include/c++/11/bits/shared_ptr.h:150:7:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[Kcandidate: \xe2\x80\x98\x1b[01m\x1b[Kstd::shared_ptr<_Tp>::shared_ptr(const std::shared_ptr<_Tp>&) [with _Tp = message_filters::CallbackHelper9<sensor_msgs::msg::Image_<std::allocator<void> >, sensor_msgs::msg::Image_<std::allocator<void> >, sensor_msgs::msg::Image_<std::allocator<void> >, message_filters::NullType, message_filters::NullType, message_filters::NullType, message_filters::NullType, message_filters::NullType, message_filters::NullType>]\x1b[m\x1b[K\xe2\x80\x99\n'}
+[20.787552] (sub_synch) StderrLine: {'line': b'  150 |       \x1b[01;36m\x1b[Kshared_ptr\x1b[m\x1b[K(const shared_ptr&) noexcept = default; ///< Copy constructor\n'}
+[20.788123] (sub_synch) StderrLine: {'line': b'      |       \x1b[01;36m\x1b[K^~~~~~~~~~\x1b[m\x1b[K\n'}
+[20.788589] (sub_synch) StderrLine: {'line': b'\x1b[01m\x1b[K/usr/include/c++/11/bits/shared_ptr.h:150:18:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[K  no known conversion for argument 1 from \xe2\x80\x98\x1b[01m\x1b[Kmessage_filters::CallbackHelper9T<const std::shared_ptr<const sensor_msgs::msg::Image_<std::allocator<void> > >&, const std::shared_ptr<const sensor_msgs::msg::Image_<std::allocator<void> > >&, const std::shared_ptr<const sensor_msgs::msg::Image_<std::allocator<void> > >&, const std::shared_ptr<const sensor_msgs::msg::Image_<std::allocator<void> > >&, const std::shared_ptr<const message_filters::NullType>&, const std::shared_ptr<const message_filters::NullType>&, const std::shared_ptr<const message_filters::NullType>&, const std::shared_ptr<const message_filters::NullType>&, const std::shared_ptr<const message_filters::NullType>&>*\x1b[m\x1b[K\xe2\x80\x99 to \xe2\x80\x98\x1b[01m\x1b[Kconst std::shared_ptr<message_filters::CallbackHelper9<sensor_msgs::msg::Image_<std::allocator<void> >, sensor_msgs::msg::Image_<std::allocator<void> >, sensor_msgs::msg::Image_<std::allocator<void> >, message_filters::NullType, message_filters::NullType, message_filters::NullType, message_filters::NullType, message_filters::NullType, message_filters::NullType> >&\x1b[m\x1b[K\xe2\x80\x99\n'}
+[20.789163] (sub_synch) StderrLine: {'line': b'  150 |       shared_ptr(\x1b[01;36m\x1b[Kconst shared_ptr&\x1b[m\x1b[K) noexcept = default; ///< Copy constructor\n'}
+[20.789617] (sub_synch) StderrLine: {'line': b'      |                  \x1b[01;36m\x1b[K^~~~~~~~~~~~~~~~~\x1b[m\x1b[K\n'}
+[20.790072] (sub_synch) StderrLine: {'line': b'\x1b[01m\x1b[K/usr/include/c++/11/bits/shared_ptr.h:148:17:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[Kcandidate: \xe2\x80\x98\x1b[01m\x1b[Kconstexpr std::shared_ptr<_Tp>::shared_ptr() [with _Tp = message_filters::CallbackHelper9<sensor_msgs::msg::Image_<std::allocator<void> >, sensor_msgs::msg::Image_<std::allocator<void> >, sensor_msgs::msg::Image_<std::allocator<void> >, message_filters::NullType, message_filters::NullType, message_filters::NullType, message_filters::NullType, message_filters::NullType, message_filters::NullType>]\x1b[m\x1b[K\xe2\x80\x99\n'}
+[20.790546] (sub_synch) StderrLine: {'line': b'  148 |       constexpr \x1b[01;36m\x1b[Kshared_ptr\x1b[m\x1b[K() noexcept : __shared_ptr<_Tp>() { }\n'}
+[20.790997] (sub_synch) StderrLine: {'line': b'      |                 \x1b[01;36m\x1b[K^~~~~~~~~~\x1b[m\x1b[K\n'}
+[20.791456] (sub_synch) StderrLine: {'line': b'\x1b[01m\x1b[K/usr/include/c++/11/bits/shared_ptr.h:148:17:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[K  candidate expects 0 arguments, 1 provided\n'}
+[20.791899] (-) TimerEvent: {}
+[20.892657] (-) TimerEvent: {}
+[20.993527] (-) TimerEvent: {}
+[21.094806] (-) TimerEvent: {}
+[21.195735] (-) TimerEvent: {}
+[21.296700] (-) TimerEvent: {}
+[21.397634] (-) TimerEvent: {}
+[21.498531] (-) TimerEvent: {}
+[21.599400] (-) TimerEvent: {}
+[21.700374] (-) TimerEvent: {}
+[21.801299] (-) TimerEvent: {}
+[21.902274] (-) TimerEvent: {}
+[22.003205] (-) TimerEvent: {}
+[22.104160] (-) TimerEvent: {}
+[22.205021] (-) TimerEvent: {}
+[22.305860] (-) TimerEvent: {}
+[22.406704] (-) TimerEvent: {}
+[22.507597] (-) TimerEvent: {}
+[22.608478] (-) TimerEvent: {}
+[22.709492] (-) TimerEvent: {}
+[22.810485] (-) TimerEvent: {}
+[22.911419] (-) TimerEvent: {}
+[23.012321] (-) TimerEvent: {}
+[23.113183] (-) TimerEvent: {}
+[23.214112] (-) TimerEvent: {}
+[23.315053] (-) TimerEvent: {}
+[23.415931] (-) TimerEvent: {}
+[23.516848] (-) TimerEvent: {}
+[23.617736] (-) TimerEvent: {}
+[23.718601] (-) TimerEvent: {}
+[23.819526] (-) TimerEvent: {}
+[23.920426] (-) TimerEvent: {}
+[24.021289] (-) TimerEvent: {}
+[24.122129] (-) TimerEvent: {}
+[24.223002] (-) TimerEvent: {}
+[24.323876] (-) TimerEvent: {}
+[24.424717] (-) TimerEvent: {}
+[24.525564] (-) TimerEvent: {}
+[24.626455] (-) TimerEvent: {}
+[24.727343] (-) TimerEvent: {}
+[24.828207] (-) TimerEvent: {}
+[24.929060] (-) TimerEvent: {}
+[25.029991] (-) TimerEvent: {}
+[25.130896] (-) TimerEvent: {}
+[25.231756] (-) TimerEvent: {}
+[25.332688] (-) TimerEvent: {}
+[25.433546] (-) TimerEvent: {}
+[25.534414] (-) TimerEvent: {}
+[25.635348] (-) TimerEvent: {}
+[25.736313] (-) TimerEvent: {}
+[25.837235] (-) TimerEvent: {}
+[25.938140] (-) TimerEvent: {}
+[26.039017] (-) TimerEvent: {}
+[26.139916] (-) TimerEvent: {}
+[26.240796] (-) TimerEvent: {}
+[26.341692] (-) TimerEvent: {}
+[26.442590] (-) TimerEvent: {}
+[26.543453] (-) TimerEvent: {}
+[26.644349] (-) TimerEvent: {}
+[26.745247] (-) TimerEvent: {}
+[26.846111] (-) TimerEvent: {}
+[26.946983] (-) TimerEvent: {}
+[27.047858] (-) TimerEvent: {}
+[27.148851] (-) TimerEvent: {}
+[27.249828] (-) TimerEvent: {}
+[27.350945] (-) TimerEvent: {}
+[27.451994] (-) TimerEvent: {}
+[27.552984] (-) TimerEvent: {}
+[27.653888] (-) TimerEvent: {}
+[27.754806] (-) TimerEvent: {}
+[27.855702] (-) TimerEvent: {}
+[27.956638] (-) TimerEvent: {}
+[28.057495] (-) TimerEvent: {}
+[28.158386] (-) TimerEvent: {}
+[28.259279] (-) TimerEvent: {}
+[28.360182] (-) TimerEvent: {}
+[28.461062] (-) TimerEvent: {}
+[28.561966] (-) TimerEvent: {}
+[28.662865] (-) TimerEvent: {}
+[28.763810] (-) TimerEvent: {}
+[28.805097] (sub_synch) StderrLine: {'line': b'In file included from \x1b[01m\x1b[K/opt/ros/humble/include/message_filters/message_filters/simple_filter.h:43\x1b[m\x1b[K,\n'}
+[28.806049] (sub_synch) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/humble/include/message_filters/message_filters/subscriber.h:43\x1b[m\x1b[K,\n'}
+[28.806762] (sub_synch) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/lamps-xe11/ros2_ws/src/sub_synch/src/time_synch.cpp:3\x1b[m\x1b[K:\n'}
+[28.807421] (sub_synch) StderrLine: {'line': b'/opt/ros/humble/include/message_filters/message_filters/signal1.h: In instantiation of \xe2\x80\x98\x1b[01m\x1b[Kvoid message_filters::CallbackHelper1T<P, M>::call(const message_filters::MessageEvent<const M>&, bool) [with P = const message_filters::MessageEvent<const message_filters::NullType>&; M = sensor_msgs::msg::Image_<std::allocator<void> >]\x1b[m\x1b[K\xe2\x80\x99:\n'}
+[28.808389] (sub_synch) StderrLine: {'line': b'\x1b[01m\x1b[K/opt/ros/humble/include/message_filters/message_filters/signal1.h:71:16:\x1b[m\x1b[K   required from here\n'}
+[28.809243] (sub_synch) StderrLine: {'line': b'\x1b[01m\x1b[K/opt/ros/humble/include/message_filters/message_filters/signal1.h:73:11:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[Kno matching function for call to \xe2\x80\x98\x1b[01m\x1b[Kmessage_filters::MessageEvent<const message_filters::NullType>::MessageEvent(const message_filters::MessageEvent<const sensor_msgs::msg::Image_<std::allocator<void> > >&, bool)\x1b[m\x1b[K\xe2\x80\x99\n'}
+[28.810015] (sub_synch) StderrLine: {'line': b'   73 |     Event \x1b[01;31m\x1b[Kmy_event\x1b[m\x1b[K(event, nonconst_force_copy || event.nonConstWillCopy());\n'}
+[28.810700] (sub_synch) StderrLine: {'line': b'      |           \x1b[01;31m\x1b[K^~~~~~~~\x1b[m\x1b[K\n'}
+[28.811278] (sub_synch) StderrLine: {'line': b'In file included from \x1b[01m\x1b[K/opt/ros/humble/include/message_filters/message_filters/signal1.h:42\x1b[m\x1b[K,\n'}
+[28.811899] (sub_synch) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/humble/include/message_filters/message_filters/simple_filter.h:43\x1b[m\x1b[K,\n'}
+[28.812572] (sub_synch) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/humble/include/message_filters/message_filters/subscriber.h:43\x1b[m\x1b[K,\n'}
+[28.813287] (sub_synch) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/lamps-xe11/ros2_ws/src/sub_synch/src/time_synch.cpp:3\x1b[m\x1b[K:\n'}
+[28.813967] (sub_synch) StderrLine: {'line': b'\x1b[01m\x1b[K/opt/ros/humble/include/message_filters/message_filters/message_event.h:128:3:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[Kcandidate: \xe2\x80\x98\x1b[01m\x1b[Kmessage_filters::MessageEvent<M>::MessageEvent(const ConstMessagePtr&, rclcpp::Time, bool, const CreateFunction&) [with M = const message_filters::NullType; message_filters::MessageEvent<M>::ConstMessagePtr = std::shared_ptr<const message_filters::NullType>; message_filters::MessageEvent<M>::CreateFunction = std::function<std::shared_ptr<message_filters::NullType>()>]\x1b[m\x1b[K\xe2\x80\x99\n'}
+[28.814622] (sub_synch) StderrLine: {'line': b'  128 |   \x1b[01;36m\x1b[KMessageEvent\x1b[m\x1b[K(const ConstMessagePtr& message, rclcpp::Time receipt_time, bool nonconst_need_copy, const CreateFunction& create)\n'}
+[28.815238] (sub_synch) StderrLine: {'line': b'      |   \x1b[01;36m\x1b[K^~~~~~~~~~~~\x1b[m\x1b[K\n'}
+[28.815878] (sub_synch) StderrLine: {'line': b'\x1b[01m\x1b[K/opt/ros/humble/include/message_filters/message_filters/message_event.h:128:3:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[K  candidate expects 4 arguments, 2 provided\n'}
+[28.816958] (sub_synch) StderrLine: {'line': b'\x1b[01m\x1b[K/opt/ros/humble/include/message_filters/message_filters/message_event.h:123:3:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[Kcandidate: \xe2\x80\x98\x1b[01m\x1b[Kmessage_filters::MessageEvent<M>::MessageEvent(const ConstMessagePtr&, rclcpp::Time) [with M = const message_filters::NullType; message_filters::MessageEvent<M>::ConstMessagePtr = std::shared_ptr<const message_filters::NullType>]\x1b[m\x1b[K\xe2\x80\x99\n'}
+[28.817961] (sub_synch) StderrLine: {'line': b'  123 |   \x1b[01;36m\x1b[KMessageEvent\x1b[m\x1b[K(const ConstMessagePtr& message, rclcpp::Time receipt_time)\n'}
+[28.818798] (sub_synch) StderrLine: {'line': b'      |   \x1b[01;36m\x1b[K^~~~~~~~~~~~\x1b[m\x1b[K\n'}
+[28.819644] (sub_synch) StderrLine: {'line': b'\x1b[01m\x1b[K/opt/ros/humble/include/message_filters/message_filters/message_event.h:123:39:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[K  no known conversion for argument 1 from \xe2\x80\x98\x1b[01m\x1b[Kconst message_filters::MessageEvent<const sensor_msgs::msg::Image_<std::allocator<void> > >\x1b[m\x1b[K\xe2\x80\x99 to \xe2\x80\x98\x1b[01m\x1b[Kconst ConstMessagePtr&\x1b[m\x1b[K\xe2\x80\x99 {aka \xe2\x80\x98\x1b[01m\x1b[Kconst std::shared_ptr<const message_filters::NullType>&\x1b[m\x1b[K\xe2\x80\x99}\n'}
+[28.820413] (sub_synch) StderrLine: {'line': b'  123 |   MessageEvent(\x1b[01;36m\x1b[Kconst ConstMessagePtr& message\x1b[m\x1b[K, rclcpp::Time receipt_time)\n'}
+[28.820956] (sub_synch) StderrLine: {'line': b'      |                \x1b[01;36m\x1b[K~~~~~~~~~~~~~~~~~~~~~~~^~~~~~~\x1b[m\x1b[K\n'}
+[28.821593] (sub_synch) StderrLine: {'line': b'\x1b[01m\x1b[K/opt/ros/humble/include/message_filters/message_filters/message_event.h:118:3:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[Kcandidate: \xe2\x80\x98\x1b[01m\x1b[Kmessage_filters::MessageEvent<M>::MessageEvent(const ConstMessagePtr&) [with M = const message_filters::NullType; message_filters::MessageEvent<M>::ConstMessagePtr = std::shared_ptr<const message_filters::NullType>]\x1b[m\x1b[K\xe2\x80\x99\n'}
+[28.822188] (sub_synch) StderrLine: {'line': b'  118 |   \x1b[01;36m\x1b[KMessageEvent\x1b[m\x1b[K(const ConstMessagePtr& message)\n'}
+[28.822877] (sub_synch) StderrLine: {'line': b'      |   \x1b[01;36m\x1b[K^~~~~~~~~~~~\x1b[m\x1b[K\n'}
+[28.823511] (sub_synch) StderrLine: {'line': b'\x1b[01m\x1b[K/opt/ros/humble/include/message_filters/message_filters/message_event.h:118:3:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[K  candidate expects 1 argument, 2 provided\n'}
+[28.824247] (sub_synch) StderrLine: {'line': b'\x1b[01m\x1b[K/opt/ros/humble/include/message_filters/message_filters/message_event.h:110:3:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[Kcandidate: \xe2\x80\x98\x1b[01m\x1b[Kmessage_filters::MessageEvent<M>::MessageEvent(const message_filters::MessageEvent<const void>&, const CreateFunction&) [with M = const message_filters::NullType; message_filters::MessageEvent<M>::CreateFunction = std::function<std::shared_ptr<message_filters::NullType>()>]\x1b[m\x1b[K\xe2\x80\x99\n'}
+[28.824987] (sub_synch) StderrLine: {'line': b'  110 |   \x1b[01;36m\x1b[KMessageEvent\x1b[m\x1b[K(const MessageEvent<void const>& rhs, const CreateFunction& create)\n'}
+[28.825634] (sub_synch) StderrLine: {'line': b'      |   \x1b[01;36m\x1b[K^~~~~~~~~~~~\x1b[m\x1b[K\n'}
+[28.826278] (sub_synch) StderrLine: {'line': b'\x1b[01m\x1b[K/opt/ros/humble/include/message_filters/message_filters/message_event.h:110:48:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[K  no known conversion for argument 1 from \xe2\x80\x98\x1b[01m\x1b[Kconst message_filters::MessageEvent<const sensor_msgs::msg::Image_<std::allocator<void> > >\x1b[m\x1b[K\xe2\x80\x99 to \xe2\x80\x98\x1b[01m\x1b[Kconst message_filters::MessageEvent<const void>&\x1b[m\x1b[K\xe2\x80\x99\n'}
+[28.827013] (sub_synch) StderrLine: {'line': b'  110 |   MessageEvent(\x1b[01;36m\x1b[Kconst MessageEvent<void const>& rhs\x1b[m\x1b[K, const CreateFunction& create)\n'}
+[28.827753] (sub_synch) StderrLine: {'line': b'      |                \x1b[01;36m\x1b[K~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~^~~\x1b[m\x1b[K\n'}
+[28.829356] (sub_synch) StderrLine: {'line': b'\x1b[01m\x1b[K/opt/ros/humble/include/message_filters/message_filters/message_event.h:104:3:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[Kcandidate: \xe2\x80\x98\x1b[01m\x1b[Kmessage_filters::MessageEvent<M>::MessageEvent(const message_filters::MessageEvent<typename std::add_const<M>::type>&, bool) [with M = const message_filters::NullType; typename std::add_const<M>::type = const message_filters::NullType]\x1b[m\x1b[K\xe2\x80\x99\n'}
+[28.830191] (sub_synch) StderrLine: {'line': b'  104 |   \x1b[01;36m\x1b[KMessageEvent\x1b[m\x1b[K(const MessageEvent<ConstMessage>& rhs, bool nonconst_need_copy)\n'}
+[28.830898] (sub_synch) StderrLine: {'line': b'      |   \x1b[01;36m\x1b[K^~~~~~~~~~~~\x1b[m\x1b[K\n'}
+[28.831439] (sub_synch) StderrLine: {'line': b'\x1b[01m\x1b[K/opt/ros/humble/include/message_filters/message_filters/message_event.h:104:50:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[K  no known conversion for argument 1 from \xe2\x80\x98\x1b[01m\x1b[Kconst message_filters::MessageEvent<const sensor_msgs::msg::Image_<std::allocator<void> > >\x1b[m\x1b[K\xe2\x80\x99 to \xe2\x80\x98\x1b[01m\x1b[Kconst message_filters::MessageEvent<const message_filters::NullType>&\x1b[m\x1b[K\xe2\x80\x99\n'}
+[28.832052] (sub_synch) StderrLine: {'line': b'  104 |   MessageEvent(\x1b[01;36m\x1b[Kconst MessageEvent<ConstMessage>& rhs\x1b[m\x1b[K, bool nonconst_need_copy)\n'}
+[28.832722] (sub_synch) StderrLine: {'line': b'      |                \x1b[01;36m\x1b[K~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~^~~\x1b[m\x1b[K\n'}
+[28.833246] (sub_synch) StderrLine: {'line': b'\x1b[01m\x1b[K/opt/ros/humble/include/message_filters/message_filters/message_event.h:98:3:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[Kcandidate: \xe2\x80\x98\x1b[01m\x1b[Kmessage_filters::MessageEvent<M>::MessageEvent(const message_filters::MessageEvent<typename std::remove_const<_Tp>::type>&, bool) [with M = const message_filters::NullType; typename std::remove_const<_Tp>::type = message_filters::NullType]\x1b[m\x1b[K\xe2\x80\x99\n'}
+[28.833858] (sub_synch) StderrLine: {'line': b'   98 |   \x1b[01;36m\x1b[KMessageEvent\x1b[m\x1b[K(const MessageEvent<Message>& rhs, bool nonconst_need_copy)\n'}
+[28.834360] (sub_synch) StderrLine: {'line': b'      |   \x1b[01;36m\x1b[K^~~~~~~~~~~~\x1b[m\x1b[K\n'}
+[28.835449] (sub_synch) StderrLine: {'line': b'\x1b[01m\x1b[K/opt/ros/humble/include/message_filters/message_filters/message_event.h:98:45:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[K  no known conversion for argument 1 from \xe2\x80\x98\x1b[01m\x1b[Kconst message_filters::MessageEvent<const sensor_msgs::msg::Image_<std::allocator<void> > >\x1b[m\x1b[K\xe2\x80\x99 to \xe2\x80\x98\x1b[01m\x1b[Kconst message_filters::MessageEvent<message_filters::NullType>&\x1b[m\x1b[K\xe2\x80\x99\n'}
+[28.836532] (sub_synch) StderrLine: {'line': b'   98 |   MessageEvent(\x1b[01;36m\x1b[Kconst MessageEvent<Message>& rhs\x1b[m\x1b[K, bool nonconst_need_copy)\n'}
+[28.837337] (sub_synch) StderrLine: {'line': b'      |                \x1b[01;36m\x1b[K~~~~~~~~~~~~~~~~~~~~~~~~~~~~~^~~\x1b[m\x1b[K\n'}
+[28.837871] (sub_synch) StderrLine: {'line': b'\x1b[01m\x1b[K/opt/ros/humble/include/message_filters/message_filters/message_event.h:93:3:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[Kcandidate: \xe2\x80\x98\x1b[01m\x1b[Kmessage_filters::MessageEvent<M>::MessageEvent(const message_filters::MessageEvent<typename std::add_const<M>::type>&) [with M = const message_filters::NullType; typename std::add_const<M>::type = const message_filters::NullType]\x1b[m\x1b[K\xe2\x80\x99\n'}
+[28.838384] (sub_synch) StderrLine: {'line': b'   93 |   \x1b[01;36m\x1b[KMessageEvent\x1b[m\x1b[K(const MessageEvent<ConstMessage>& rhs)\n'}
+[28.838843] (sub_synch) StderrLine: {'line': b'      |   \x1b[01;36m\x1b[K^~~~~~~~~~~~\x1b[m\x1b[K\n'}
+[28.839333] (sub_synch) StderrLine: {'line': b'\x1b[01m\x1b[K/opt/ros/humble/include/message_filters/message_filters/message_event.h:93:3:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[K  candidate expects 1 argument, 2 provided\n'}
+[28.839809] (sub_synch) StderrLine: {'line': b'\x1b[01m\x1b[K/opt/ros/humble/include/message_filters/message_filters/message_event.h:88:3:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[Kcandidate: \xe2\x80\x98\x1b[01m\x1b[Kmessage_filters::MessageEvent<M>::MessageEvent(const message_filters::MessageEvent<typename std::remove_const<_Tp>::type>&) [with M = const message_filters::NullType; typename std::remove_const<_Tp>::type = message_filters::NullType]\x1b[m\x1b[K\xe2\x80\x99\n'}
+[28.840403] (sub_synch) StderrLine: {'line': b'   88 |   \x1b[01;36m\x1b[KMessageEvent\x1b[m\x1b[K(const MessageEvent<Message>& rhs)\n'}
+[28.840896] (sub_synch) StderrLine: {'line': b'      |   \x1b[01;36m\x1b[K^~~~~~~~~~~~\x1b[m\x1b[K\n'}
+[28.841377] (sub_synch) StderrLine: {'line': b'\x1b[01m\x1b[K/opt/ros/humble/include/message_filters/message_filters/message_event.h:88:3:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[K  candidate expects 1 argument, 2 provided\n'}
+[28.841845] (sub_synch) StderrLine: {'line': b'\x1b[01m\x1b[K/opt/ros/humble/include/message_filters/message_filters/message_event.h:84:3:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[Kcandidate: \xe2\x80\x98\x1b[01m\x1b[Kmessage_filters::MessageEvent<M>::MessageEvent() [with M = const message_filters::NullType]\x1b[m\x1b[K\xe2\x80\x99\n'}
+[28.842392] (sub_synch) StderrLine: {'line': b'   84 |   \x1b[01;36m\x1b[KMessageEvent\x1b[m\x1b[K()\n'}
+[28.842865] (sub_synch) StderrLine: {'line': b'      |   \x1b[01;36m\x1b[K^~~~~~~~~~~~\x1b[m\x1b[K\n'}
+[28.843336] (sub_synch) StderrLine: {'line': b'\x1b[01m\x1b[K/opt/ros/humble/include/message_filters/message_filters/message_event.h:84:3:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[K  candidate expects 0 arguments, 2 provided\n'}
+[28.864031] (-) TimerEvent: {}
+[28.964889] (-) TimerEvent: {}
+[29.065831] (-) TimerEvent: {}
+[29.166784] (-) TimerEvent: {}
+[29.267647] (-) TimerEvent: {}
+[29.368657] (-) TimerEvent: {}
+[29.469584] (-) TimerEvent: {}
+[29.570533] (-) TimerEvent: {}
+[29.671475] (-) TimerEvent: {}
+[29.772391] (-) TimerEvent: {}
+[29.873338] (-) TimerEvent: {}
+[29.974295] (-) TimerEvent: {}
+[30.075297] (-) TimerEvent: {}
+[30.176161] (-) TimerEvent: {}
+[30.277157] (-) TimerEvent: {}
+[30.378339] (-) TimerEvent: {}
+[30.479193] (-) TimerEvent: {}
+[30.580077] (-) TimerEvent: {}
+[30.680946] (-) TimerEvent: {}
+[30.781763] (-) TimerEvent: {}
+[30.882639] (-) TimerEvent: {}
+[30.983478] (-) TimerEvent: {}
+[31.084402] (-) TimerEvent: {}
+[31.185353] (-) TimerEvent: {}
+[31.286406] (-) TimerEvent: {}
+[31.387354] (-) TimerEvent: {}
+[31.488345] (-) TimerEvent: {}
+[31.589195] (-) TimerEvent: {}
+[31.690113] (-) TimerEvent: {}
+[31.790971] (-) TimerEvent: {}
+[31.891874] (-) TimerEvent: {}
+[31.992888] (-) TimerEvent: {}
+[32.094066] (-) TimerEvent: {}
+[32.094948] (sub_synch) StderrLine: {'line': b'gmake[2]: *** [CMakeFiles/time_synch.dir/build.make:76: CMakeFiles/time_synch.dir/src/time_synch.cpp.o] Error 1\n'}
+[32.096072] (sub_synch) StderrLine: {'line': b'gmake[1]: *** [CMakeFiles/Makefile2:137: CMakeFiles/time_synch.dir/all] Error 2\n'}
+[32.097508] (sub_synch) StderrLine: {'line': b'gmake: *** [Makefile:146: all] Error 2\n'}
+[32.105566] (sub_synch) CommandEnded: {'returncode': 2}
+[32.194346] (-) TimerEvent: {}
+[32.295611] (-) TimerEvent: {}
+[32.297280] (sub_synch) JobEnded: {'identifier': 'sub_synch', 'rc': 2}
+[32.313927] (-) EventReactorShutdown: {}
